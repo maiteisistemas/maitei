@@ -1,0 +1,42 @@
+-- Create table
+create table STM_UM_RELACIONES
+(
+  COD_EMPRESA         VARCHAR2(5) not null,
+  COD_ARTICULO        VARCHAR2(5) not null,
+  COD_UNIDAD_MEDIDA   VARCHAR2(5),
+  VALOR_MULTIP        NUMBER(8,2),
+  VALOR_DIVIDE        NUMBER(8,2),
+  UTILIZA_POR_DEFECTO VARCHAR2(1)
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the columns 
+comment on column STM_UM_RELACIONES.UTILIZA_POR_DEFECTO
+  is 'S/N si es que la UM se utiliza por defecto.';
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table STM_UM_RELACIONES
+  add constraint PK_UM_RELACIONES primary key (COD_EMPRESA, COD_ARTICULO)
+  using index 
+  tablespace SYSTEM
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Grant/Revoke object privileges 
+grant select, insert, update, delete, references, alter, index on STM_UM_RELACIONES to PUBLIC;

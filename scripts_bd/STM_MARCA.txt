@@ -1,0 +1,35 @@
+-- Create table
+create table STM_MARCA
+(
+  COD_MARCA VARCHAR2(5) not null,
+  NOM_MARCA VARCHAR2(100)
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table STM_MARCA
+  add constraint PK_MARCA primary key (COD_MARCA)
+  using index 
+  tablespace SYSTEM
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Grant/Revoke object privileges 
+grant select, insert, update, delete, references, alter, index on STM_MARCA to PUBLIC;

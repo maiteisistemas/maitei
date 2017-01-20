@@ -1,0 +1,36 @@
+-- Create table
+create table MONEDA
+(
+  COD_MONEDA NUMBER(1) not null,
+  NOM_MONEDA VARCHAR2(30),
+  ABV_MONEDA VARCHAR2(3)
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table MONEDA
+  add constraint PK_MONEDA primary key (COD_MONEDA)
+  using index 
+  tablespace SYSTEM
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Grant/Revoke object privileges 
+grant select, insert, update, delete, references, alter, index on MONEDA to PUBLIC;

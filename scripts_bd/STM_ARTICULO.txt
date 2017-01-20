@@ -1,0 +1,64 @@
+-- Create table
+create table STM_ARTICULO
+(
+  COD_EMPRESA       VARCHAR2(5) not null,
+  COD_SUCURSAL      VARCHAR2(5) not null,
+  COD_ARTICULO      VARCHAR2(5) not null,
+  NOM_ARTICULO      VARCHAR2(150),
+  COD_ORIGEN_ART    VARCHAR2(20),
+  COD_PAIS_ORIG     VARCHAR2(5),
+  COD_PROVEEDOR     VARCHAR2(5),
+  COD_SECCION       VARCHAR2(5),
+  COD_RUBRO         VARCHAR2(5),
+  COD_FAMILIA       VARCHAR2(5),
+  COD_TIPO          VARCHAR2(5),
+  COD_MARCA         VARCHAR2(5),
+  COD_UNIDAD_MEDIDA VARCHAR2(5),
+  COD_MONEDA_COSTO  NUMBER(1),
+  COD_MONEDA_BASE   NUMBER(1),
+  COD_IVA           VARCHAR2(1),
+  PORC_DESCUENTO    NUMBER(5,2),
+  CANT_POR_PAQUETE  NUMBER(12,2),
+  COD_BARRA         VARCHAR2(25),
+  MED_ANCHO_CM      NUMBER(10,2),
+  MED_LARGO_CM      NUMBER(10,2),
+  MED_ALTO_CM       NUMBER(10,2),
+  PESO_KG           NUMBER(10,2),
+  PESO_GR           NUMBER(10,2),
+  COSTO_PROMEDIO    NUMBER(15,3),
+  MANEJA_EXISTENCIA VARCHAR2(1),
+  MANEJA_COSTO      VARCHAR2(1),
+  ARTICULO_ACTIVO   VARCHAR2(1)
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the columns 
+comment on column STM_ARTICULO.ARTICULO_ACTIVO
+  is 'S/N para saber si el artículo está o no activo.';
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table STM_ARTICULO
+  add constraint PK_ARTICULO primary key (COD_EMPRESA, COD_SUCURSAL, COD_ARTICULO)
+  using index 
+  tablespace SYSTEM
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Grant/Revoke object privileges 
+grant select, insert, update, delete, references, alter, index on STM_ARTICULO to PUBLIC;

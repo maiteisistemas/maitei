@@ -1,0 +1,36 @@
+-- Create table
+create table STM_IVA
+(
+  COD_IVA        VARCHAR2(1) not null,
+  DESC_IVA       VARCHAR2(5),
+  PORC_DESCUENTO NUMBER(5,2)
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table STM_IVA
+  add constraint PK_IVA primary key (COD_IVA)
+  using index 
+  tablespace SYSTEM
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Grant/Revoke object privileges 
+grant select, insert, update, delete, references, alter, index on STM_IVA to PUBLIC;

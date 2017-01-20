@@ -1,0 +1,38 @@
+-- Create table
+create table STM_SECCION
+(
+  COD_EMPRESA  VARCHAR2(5) not null,
+  COD_SUCURSAL VARCHAR2(5) not null,
+  COD_SECCION  VARCHAR2(5) not null,
+  NOM_SECCION  VARCHAR2(150)
+)
+tablespace SYSTEM
+  pctfree 10
+  pctused 40
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table STM_SECCION
+  add constraint PK_SECCION primary key (COD_EMPRESA, COD_SUCURSAL, COD_SECCION)
+  using index 
+  tablespace SYSTEM
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Grant/Revoke object privileges 
+grant select, insert, update, delete on STM_SECCION to MIRIAN;
+grant select, insert, update, delete, references, alter, index on STM_SECCION to PUBLIC;
