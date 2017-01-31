@@ -1,0 +1,37 @@
+[06/16/16 13:22:42 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=7792]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  664F35B0 01:000A25B0
+Module: C:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.2 Build 9200 
+Command line: "C:\orant\BIN\ifrun60.EXE" Imenu
+FORM/BLOCK/FIELD: VTFACTUR:B_DETALLE.<NULL>
+Last Trigger: PRE-QUERY - (In Progress)
+Msg: <NULL>
+Last Builtin: EXECUTE_QUERY - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:05033680
+ECX:00000000
+EDX:0502D410
+ESI:0019D710
+EDI:02519EFC
+CS:EIP:0023:664F35B0
+SS:ESP:002B:0019C9FC  EBP:0019CA1C
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0019ca1c 664b8296 0502d410 00000001 0019d710 05033680 0x664f35b0          
+0x0019db20 6646452a 0502d410 02519efc 050dc25c 00000001 0x664b8296          
+0x0019db88 67e28edc 02519efc 0502d410 02556760 0250de84 0x6646452a          
+0x02519238 0250de84 67deac90 67deacd0 00a57ab0 00000000 0x67e28edc          
+0x02556760 00000001 0000000a 0252fa30 67fbcf2f 00a0189a 0x0250de84          
+------------------- End of Stack Trace -------------------
+
+

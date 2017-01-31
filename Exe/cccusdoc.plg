@@ -1,0 +1,39 @@
+Resumen de Conversión de PL/SQL V1 - \\192.168.0.156\Inventiva\Fuentes\cta_cob\rep\cccusdoc.rdf
+
+CF_EMPRESAFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'EMPRESAS' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 35
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 10 columna 1
+
+F_TOT_PLANILLAFORMATTRIGGER (Cuerpo de la Función)
+
+CF_ESTADOFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 34
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 8 columna 1
+
+CF_IMPORTEFORMULA (Cuerpo de la Función)
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 12 columna 1
+
+F_IMPORTE1FORMATTRIGGER (Cuerpo de la Función)
+
+VENCIMIENTOFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 15, columna 16
+    el identificador 'CC_SALDOS' debe declararse
+  ERROR 364 en línea 25, columna 42
+    el uso de la variable 'X' de índice de bucle no es válido
+  ERROR 364 en línea 27, columna 65
+    el uso de la variable 'X' de índice de bucle no es válido
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 40 columna 1
+
+F_C_CF_IMPORTE1FORMATTRIGGER (Cuerpo de la Función)
+
+BEFOREREPORT* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 12
+    el identificador 'PARAMETROS_GENERALES' debe declararse
+
+F_IMPORTE1FORMATTRIGGER0027 (Cuerpo de la Función)
+
+M_2FORMATTRIGGER (Cuerpo de la Función)
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 8 columna 1

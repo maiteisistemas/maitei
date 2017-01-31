@@ -1,0 +1,35 @@
+PL/SQL V1 Conversion Summary - R:\Fuentes\cta_pag\Rep\cpordpaf.rdf
+
+CF_EMPRESAFORMULA* (Function Body)
+  ERROR 201 at line 6, column 8
+    identifier 'EMPRESAS' must be declared
+  Not Converted:  CHAR to VARCHAR2 at line 1 column 35
+
+M_5FORMATTRIGGER* (Function Body)
+  ERROR 49 at line 3, column 10
+    bad bind variable 'AUTORIZADO'
+  Warning:  Encountered a non-recoverable error, conversion aborted at line 0 column 0
+
+PP_DESC_SERIEFORMULA* (Function Body)
+  ERROR 49 at line 3, column 6
+    bad bind variable 'P_SER_ORDEN_PAGO'
+  Warning:  Encountered a non-recoverable error, conversion aborted at line 0 column 0
+
+PP_DESC_AUTORIZADOFORMULA* (Function Body)
+  ERROR 49 at line 3, column 6
+    bad bind variable 'P_AUTORIZADO'
+  Warning:  Encountered a non-recoverable error, conversion aborted at line 0 column 0
+
+B_24FORMATTRIGGER* (Function Body)
+  ERROR 49 at line 3, column 6
+    bad bind variable 'P_FEC_DES'
+  ERROR 49 at line 3, column 28
+    bad bind variable 'P_FEC_HAS'
+  Warning:  Encountered a non-recoverable error, conversion aborted at line 0 column 0
+
+B_23FORMATTRIGGER* (Function Body)
+  ERROR 49 at line 3, column 6
+    bad bind variable 'P_NUM_ORDEN_DES'
+  ERROR 49 at line 3, column 34
+    bad bind variable 'P_NUM_ORDEN_HAS'
+  Warning:  Encountered a non-recoverable error, conversion aborted at line 0 column 0

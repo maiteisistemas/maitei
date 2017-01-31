@@ -1,0 +1,20 @@
+Resumen de Conversión de PL/SQL V1 - Z:\Fuentes\cta_cob\rep\ccrecanu.rdf
+
+EMPRESAFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 32
+
+CF_COBRADORFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 13 columna 1
+
+CF_SUCURSALFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 10 columna 1
+
+CF_CLIENTEFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 35
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 14 columna 1
+
+F_TOT_RECIBOFORMATTRIGGER (Cuerpo de la Función)
+
+F_TOTAL_MONEDA_SUCURSALFORMATT (Cuerpo de la Función)

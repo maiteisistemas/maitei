@@ -1,0 +1,46 @@
+[10/07/15 07:42:05 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=156]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  67F3E8B7 01:0003D8B7
+Module: C:\orant\BIN\CORE40.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7601 Service Pack 1
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: VTFACTUR:B_CABECERA.COD_SUCURSAL
+Last Trigger: WHEN-NEW-FORM-INSTANCE - (In Progress)
+Msg: <NULL>
+Last Builtin: SHOW_LOV - (In Progress)
+
+Registers:
+EAX:046FC3E8
+EBX:0012AF48
+ECX:00000000
+EDX:00000000
+ESI:046FC3E8
+EDI:046FC254
+CS:EIP:001B:67F3E8B7
+SS:ESP:0023:0012AEBC  EBP:0012AEC0
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012aec0 67f354c2 01642360 0164479c 046fc3e8 00000000 0x67f3e8b7          
+0x0012aee8 67f2e8cf 01642360 0164479c 0012af24 00000000 0x67f354c2          
+0x0012af14 67f351b6 01642360 01642390 046fc254 00000000 0x67f2e8cf          
+0x0012af40 0034c79b 00000000 01642390 046fc268 00000000 0x67f351b6          
+0x0012af5c 0032cf9e 01664c10 046fc268 016709b0 01664c10 0x0034c79b          
+0x0012af74 0047c41b 01664c10 046fc268 03ccaa84 016709b0 0x0032cf9e          
+0x0012aff8 004bd5c1 046fc268 00000000 00000000 00000000 0x0047c41b          
+0x0012b04c 004ce189 00000000 03ccaa84 0012be58 00000000 0x004bd5c1          
+0x0012bf88 004c48b9 016ac43c 00000002 0472a51c 000000d6 0x004ce189          
+0x0012bfa0 664b049b 016ac43c 00000002 0472a51c 0167d37c 0x004c48b9          
+0x0012d0a0 6646452a 016ac43c 0167d37c 0471b35c 00000001 0x664b049b          
+0x0012d108 005dfebc 0167d37c 016ac43c 016b6408 01671304 0x6646452a          
+0x0167c6b8 01671304 005a1c70 005a1cb0 00467f50 00000000 0x005dfebc          
+0x016b6408 00000001 0000000a 0168fb30 67fbcf2f 00411890 0x01671304          
+------------------- End of Stack Trace -------------------
+
+

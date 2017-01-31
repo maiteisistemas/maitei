@@ -1,0 +1,58 @@
+[05/28/16 09:03:58 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=2004]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  6723A4F2 01:000794F2
+Module: C:\orant\BIN\UIW60.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7600 
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: BSMENU:B_MENU.LIS_EMPRESA
+Last Trigger: WHEN-BUTTON-PRESSED - (Successfully Completed)
+Msg: <NULL>
+Last Builtin: SET_WINDOW_PROPERTY - (Successfully Completed)
+
+Registers:
+EAX:0000006E
+EBX:005CC840
+ECX:000002C0
+EDX:00000003
+ESI:00000000
+EDI:0018E858
+CS:EIP:0023:6723A4F2
+SS:ESP:002B:0018E7D8  EBP:0018E7EC
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010202
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0018e7ec 671d780d 00767bc0 00000000 0018e858 0018e858 0x6723a4f2          
+0x0018e860 752d6238 000c087c 00000200 00000000 004702bd 0x671d780d          
+0x0018e88c 752d68ea 671d7428 000c087c 00000200 00000000 0x752d6238          
+0x0018e904 752d7d31 00000000 671d7428 000c087c 00000200 0x752d68ea          
+0x0018e964 752d8112 671d7428 00000001 0018ea24 671daf2c 0x752d7d31          
+0x0018e974 671daf2c 0018ea00 00767bc0 005cc840 01000000 0x752d8112          
+0x0018ea24 67247731 00767bc0 00000001 00000001 01ecfdb0 0x671daf2c          
+0x0018ea4c 00414f88 01ecfdb0 052bad28 00000000 01ecfdb0 0x67247731          
+0x0018ea6c 0045466a 00767bc0 00000000 01ecfdb0 0534b734 0x00414f88          
+0x0018eaa0 0043b0ab 052bad28 052bad28 0534b734 01ecfdb0 0x0045466a          
+0x0018eac4 00416da6 01ecfdb0 01ecfdb0 01ecfdb0 052bad28 0x0043b0ab          
+0x0018ede8 00415f42 052bad28 00000000 054d423c 01ecfdb0 0x00416da6          
+0x0018f158 0043cb1f 01ecfdb0 00000001 052bad28 01ecfdb0 0x00415f42          
+0x0018f1a8 0043b435 05356f64 00000001 052bad28 01ecfdb0 0x0043cb1f          
+0x0018f240 0043b2e0 054d2ba0 00000000 01ecfdb0 052bad28 0x0043b435          
+0x0018f264 0043edce 054d423c 00000000 054d2ba0 01ecfdb0 0x0043b2e0          
+0x0018f2a4 0043e55f 054d2ba0 05394aec 0534b914 01ecfdb0 0x0043edce          
+0x0018f2d4 0043df0d 052bad28 0534b914 0534b914 01ecfdb0 0x0043e55f          
+0x0018f2fc 0043d14a 052bad28 0534b914 00000000 01ecfdb0 0x0043df0d          
+0x0018f34c 0041a3d7 00000000 00000001 0018f384 00000000 0x0043d14a          
+0x0018f3b4 00419e06 04df817c 01ec6a34 00000000 00000001 0x0041a3d7          
+0x0018f4d0 00412f0e 00000000 01ed3e48 00000005 01ed3bc8 0x00419e06          
+0x0018fd30 004119e9 00000014 00000000 00000002 02620ae0 0x00412f0e          
+0x0018fd54 004118be 002e09d0 00000000 00000000 00000002 0x004119e9          
+0x0018fd74 100088f2 002e09d0 00000000 00000000 00000002 0x004118be          
+0x0018fdc4 1000a26f 002e1a8c 00403010 00000000 00000002 0x100088f2          
+------------------- End of Stack Trace -------------------
+
+

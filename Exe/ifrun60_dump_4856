@@ -1,0 +1,28 @@
+[06/15/16 16:30:40 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=4856]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  76AB9B60 01:00008B60
+Module: C:\Windows\syswow64\MSVCRT.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7600 
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: IMENU:B_CONTRASEÑA.CONTRASEÑA
+Last Trigger: WHEN-BUTTON-PRESSED - (Execution Suspended)
+Msg: <NULL>
+Last Builtin: OPEN_FORM - (Successfully Completed)
+
+Registers:
+EAX:04FF634C
+EBX:005DBCE0
+ECX:000024D3
+EDX:00000000
+ESI:04FED000
+EDI:053FC5A4
+CS:EIP:0023:76AB9B60
+SS:ESP:002B:0018E9FC  EBP:0018EA04
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010216
+------------------- Call Stack Trace ---------------------

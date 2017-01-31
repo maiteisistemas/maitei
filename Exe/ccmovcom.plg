@@ -1,0 +1,10 @@
+Resumen de Conversión de PL/SQL V1 - Z:\Fuentes\cta_cob\rep\CCmovcom.RDF
+
+EMPRESAFORMULA (Cuerpo de la Función)
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 32
+
+CF_SUCURSALFORMULA (Cuerpo de la Función)
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 36
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 10 columna 1
+
+CF_HABILITACIONFORMULA (Cuerpo de la Función)

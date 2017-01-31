@@ -1,0 +1,69 @@
+[05/03/16 14:14:53 Hora estándar de Argentina]::Client Status [ConnId=0, PID=4088]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  005ADB8C 01:0005CB8C
+Module: C:\orant\BIN\DE60.dll
+
+System Information:
+Operating System: Windows NT Version 5.1 Build 2600 Service Pack 3
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: BSMENU:B_CAMBIO.<NULL>
+Last Trigger: POST-QUERY - (In Progress)
+Msg: <NULL>
+Last Builtin: EXECUTE_QUERY - (Successfully Completed)
+
+Registers:
+EAX:021FE30C
+EBX:02357845
+ECX:00000216
+EDX:00001011
+ESI:02357FFD
+EDI:021FEAC4
+CS:EIP:001B:005ADB8C
+SS:ESP:0023:0013DD78  EBP:00000014
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010202
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+------------------- End of Stack Trace -------------------
+
+
+[07/29/16 09:48:24 Hora de verano romance]::Client Status [ConnId=0, PID=4088]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  664F35B0 01:000A25B0
+Module: C:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7600 
+Command line: IFDBG60 -SsL09@
+FORM/BLOCK/FIELD: STREMISI:B_CABECERA.RUC
+Last Trigger: WHEN-NEW-ITEM-INSTANCE - (In Progress)
+Msg: <NULL>
+Last Builtin: NEXT_FIELD - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:01A28F1C
+ECX:00000000
+EDX:019AD7E0
+ESI:0012DA98
+EDI:01985C34
+CS:EIP:001B:664F35B0
+SS:ESP:0023:0012CD84  EBP:0012CDA4
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012cda4 664b8296 019ad7e0 00000001 0012da98 01a28f1c 0x664f35b0          
+0x0012dea8 6646452a 019ad7e0 01985c34 01a0b84c 00000001 0x664b8296          
+0x0012df10 0049febc 01985c34 019ad7e0 019a56f8 01963a3c 0x6646452a          
+0x01985510 01963a3c 00461c70 00461cb0 0066bc40 00000000 0x0049febc          
+0x019a56f8 00000001 0000000a 019821d0 67fbcf2f 00615492 0x01963a3c          
+------------------- End of Stack Trace -------------------
+
+

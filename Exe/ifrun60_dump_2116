@@ -1,0 +1,121 @@
+[08/12/15 08:56:58 Hora estándar de Argentina]::Client Status [ConnId=0, PID=2116]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  67663C41 01:00102C41
+Module: C:\orant\BIN\ORA805.dll
+
+System Information:
+Operating System: Windows NT Version 5.1 Build 2600 Service Pack 3
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: BSMENU:B_CAMBIO.CERRAR
+Last Trigger: WHEN-NEW-BLOCK-INSTANCE - (Execution Suspended)
+Msg: <NULL>
+Last Builtin: EXECUTE_QUERY - (Successfully Completed)
+
+Registers:
+EAX:02103FE0
+EBX:020EDFDC
+ECX:01780801
+EDX:00000000
+ESI:00000D10
+EDI:020ED9A8
+CS:EIP:001B:67663C41
+SS:ESP:0023:0013B37C  EBP:0013EB50
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0013eb50 675616a9 020edfdc 02158004 00000007 00000001 0x67663c41          
+0x0013eb78 00756496 020edfdc 020ed9a8 02158004 00000007 0x675616a9          
+0x0013ebc0 00755f76 020edfdc 02103f70 02158004 00000007 0x00756496          
+0x0013ed24 0044c176 00000007 02158004 00000001 0013f187 0x00755f76          
+0x0013f17c 0044c02e 016b2780 023b7774 0053b8c4 02158004 0x0044c176          
+0x0013f1b0 0044c658 016b2780 023b7774 0013f1dc 0013f1d0 0x0044c02e          
+0x0013f1d4 00443de2 016be520 023b7880 0013f1f4 023b7774 0x0044c658          
+0x0013f1f8 00437d3b 016be520 023b7880 00000001 00000012 0x00443de2          
+0x0013f278 0043014d 016be520 00000000 023b7774 016be520 0x00437d3b          
+0x0013f298 0042fdb0 016be520 021594cc 00000002 00000000 0x0043014d          
+0x0013f2d8 0043eab0 00000000 023b7774 021c6a70 021acdac 0x0042fdb0          
+0x0013f30c 0043e18d 01749ff8 021c6a70 0215d4ac 016be520 0x0043eab0          
+0x0013f334 0043d3ca 01749ff8 0215d4ac 00000000 016be520 0x0043e18d          
+0x0013f384 0041a442 00000000 00000001 0013f3bc 00000000 0x0043d3ca          
+0x0013f3ec 00419e59 01f8817c 016b45a4 00000000 00000001 0x0041a442          
+0x0013f508 00412f0e 00000000 016c28f8 00000005 016c2678 0x00419e59          
+0x0013fd68 004119e9 00000014 00000000 00000002 011e0910 0x00412f0e          
+0x0013fd8c 004118be 00dc4150 00000000 00000000 00000002 0x004119e9          
+0x0013fdac 67948973 00dc4150 00000000 00000000 00000002 0x004118be          
+0x0013fdfc 6794a3b1 00dc2fec 00403010 00000000 00000002 0x67948973          
+------------------- End of Stack Trace -------------------
+
+
+[06/15/16 14:21:51 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=2116]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  0073D9D7 01:0005C9D7
+Module: C:\orant\BIN\DE60.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7601 Service Pack 1
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: BSMENU:B_CAMBIO.CERRAR
+Last Trigger: WHEN-NEW-BLOCK-INSTANCE - (In Progress)
+Msg: <NULL>
+Last Builtin: GO_ITEM - (Successfully Completed)
+
+Registers:
+EAX:0012DA38
+EBX:03CB7130
+ECX:00000020
+EDX:00000000
+ESI:007ED0D8
+EDI:03CB7130
+CS:EIP:001B:0073D9D7
+SS:ESP:0023:0012D978  EBP:00000000
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+------------------- End of Stack Trace -------------------
+
+
+[07/29/16 07:58:11 Hora de verano romance]::Client Status [ConnId=0, PID=2116]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  664F35B0 01:000A25B0
+Module: C:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7600 
+Command line: IFDBG60 -SsL09@
+FORM/BLOCK/FIELD: STREMISI:B_CABECERA.RUC
+Last Trigger: WHEN-NEW-ITEM-INSTANCE - (In Progress)
+Msg: <NULL>
+Last Builtin: NEXT_FIELD - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:02A18F3C
+ECX:00000000
+EDX:0299D850
+ESI:0012DA98
+EDI:02975B64
+CS:EIP:001B:664F35B0
+SS:ESP:0023:0012CD84  EBP:0012CDA4
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012cda4 664b8296 0299d850 00000001 0012da98 02a18f3c 0x664f35b0          
+0x0012dea8 6646452a 0299d850 02975b64 029fb9ec 00000001 0x664b8296          
+0x0012df10 0049febc 02975b64 0299d850 02995768 02953a3c 0x6646452a          
+0x02975580 02953a3c 00461c70 00461cb0 0066bc40 00000000 0x0049febc          
+0x02995768 00000001 0000000a 02972020 67fbcf2f 00615492 0x02953a3c          
+------------------- End of Stack Trace -------------------
+
+

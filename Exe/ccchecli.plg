@@ -1,0 +1,51 @@
+Resumen de Conversión de PL/SQL V1 - \\192.168.0.156\Inventiva\Fuentes\cta_cob\rep\ccchecli.rdf
+
+EMPRESAFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 32
+
+CF_SUCURSALFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 10 columna 1
+
+CF_VENCIMIENTOSFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 40
+
+CF_ESTADOFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 34
+
+CF_EMISIONESFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 37
+
+CF_ESTADO1FORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 35
+
+CF_SERIEFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 33
+
+CF_CLIENTEFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 35
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 20 columna 1
+
+CF_BANCOFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 33
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 18 columna 1
+
+F_MONTO_VALORFORMATTRIGGER (Cuerpo de la Función)
+
+F_CS_O_MONTO_TOTALFORMATTRIGGE (Cuerpo de la Función)
+
+F_CS_MONTO_TOTALFORMATTRIGGER (Cuerpo de la Función)
+
+CF_CUSTODIOFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 19 columna 1
+
+CF_FEC_RECHAZOFORMULA (Cuerpo de la Función)
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 32 columna 1
+
+CF_DEPOSITOFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+
+CF_PP_NRO_VALORFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 40
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 8 columna 1

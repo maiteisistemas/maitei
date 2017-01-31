@@ -1,0 +1,50 @@
+[09/05/16 16:26:33 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=2744]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  67663C41 01:00102C41
+Module: C:\orant\BIN\ORA805.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7600 
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: BSMENU:B_CAMBIO.CERRAR
+Last Trigger: WHEN-NEW-BLOCK-INSTANCE - (Execution Suspended)
+Msg: <NULL>
+Last Builtin: EXECUTE_QUERY - (Successfully Completed)
+
+Registers:
+EAX:01EF7110
+EBX:01EF7894
+ECX:01EF1701
+EDX:00000000
+ESI:00000D10
+EDI:01EF7260
+CS:EIP:0023:67663C41
+SS:ESP:002B:0018B3A4  EBP:0018EB78
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0018eb78 675616a9 01ef7894 05346b5c 00000007 00000001 0x67663c41          
+0x0018eba0 004163a6 01ef7894 01ef7260 05346b5c 00000007 0x675616a9          
+0x0018ebe8 00415e86 01ef7894 01ef70a0 05346b5c 00000007 0x004163a6          
+0x0018ed4c 0025bdc6 00000007 05346b5c 00000001 0018f1af 0x00415e86          
+0x0018f1a4 0025bc7e 01e34c50 055c7774 0034ae2c 05346b5c 0x0025bdc6          
+0x0018f1d8 00247a2c 01e34c50 055c7774 0018f24c 0018f20c 0x0025bc7e          
+0x0018f240 0023ffad 01e3fdb0 00000000 055c7774 01e3fdb0 0x00247a2c          
+0x0018f260 0023fc10 01e3fdb0 05348744 00000002 00000000 0x0023ffad          
+0x0018f2a0 0024e830 00000000 055c7774 05459994 0595d694 0x0023fc10          
+0x0018f2d4 0024df0d 052bad28 05459994 0534bf84 01e3fdb0 0x0024e830          
+0x0018f2fc 0024d14a 052bad28 0534bf84 00000000 01e3fdb0 0x0024df0d          
+0x0018f34c 0022a3d7 00000000 00000001 0018f384 00000000 0x0024d14a          
+0x0018f3b4 00229e06 04e0817c 01e36a34 00000000 00000001 0x0022a3d7          
+0x0018f4d0 00222f0e 00000000 01e43e48 00000005 01e43bc8 0x00229e06          
+0x0018fd30 002219e9 00000014 00000000 00000002 024a0ae0 0x00222f0e          
+0x0018fd54 002218be 024909d0 00000000 00000000 00000002 0x002219e9          
+0x0018fd74 100088f2 024909d0 00000000 00000000 00000002 0x002218be          
+0x0018fdc4 1000a26f 02491a8c 00403010 00000000 00000002 0x100088f2          
+------------------- End of Stack Trace -------------------
+
+

@@ -1,0 +1,37 @@
+[08/12/16 10:55:35 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=5624]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  664F35B0 01:000A25B0
+Module: C:\devinv\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 5.2 Build 3790 Service Pack 2
+Command line: "C:\devinv\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: CCMOVVAL:B_DETALLE.TIP_DOCUMENTO
+Last Trigger: WHEN-NEW-ITEM-INSTANCE - (In Progress)
+Msg: <NULL>
+Last Builtin: NEXT_FIELD - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:022BE4B8
+ECX:00000000
+EDX:015ED8B4
+ESI:0012CCC8
+EDI:0154A7E4
+CS:EIP:001B:664F35B0
+SS:ESP:0023:0012BFB4  EBP:0012BFD4
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012bfd4 664b8296 015ed8b4 00000001 0012ccc8 022be4b8 0x664f35b0          
+0x0012d0d8 6646452a 015ed8b4 0154a7e4 0225d838 00000001 0x664b8296          
+0x0012d140 005dfebc 0154a7e4 015ed8b4 0157e410 0153e76c 0x6646452a          
+0x01549b20 0153e76c 005a1c70 005a1cb0 00467f50 00000000 0x005dfebc          
+0x0157e410 00000001 0000000a 0157e730 67fbcf2f 00411890 0x0153e76c          
+------------------- End of Stack Trace -------------------
+
+

@@ -1,0 +1,6 @@
+Resumen de Conversión de PL/SQL V1 - \\SERVIDOR\Inventiva\Fuentes\stock\Rep\stensaar
+
+CF_1FORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 9
+    el identificador 'EMPRESAS' debe declararse
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 29

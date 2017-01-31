@@ -1,0 +1,46 @@
+[11/10/15 14:17:30 Hora de verano de Paraguay]::Client Status [ConnId=0, PID=2984]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  664F35B0 01:000A25B0
+Module: C:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.2 Build 9200 
+Command line: "C:\orant\BIN\ifrun60.EXE" rprenpen
+FORM/BLOCK/FIELD: RPRENPEN:B_CABECERA.<NULL>
+Last Trigger: PRE-QUERY - (In Progress)
+Msg: <NULL>
+Last Builtin: SET_ITEM_PROPERTY/SET_FIELD - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:02984200
+ECX:00000000
+EDX:029098CC
+ESI:0019EB3C
+EDI:028E168C
+CS:EIP:0023:664F35B0
+SS:ESP:002B:0019DE28  EBP:0019DE48
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010246
+
+
+Call stack:
+Address   Frame
+664F35B0  0019DE48  trekin
+664B8296  0019EF4C  trekin
+6646452A  0019EFB4  peicnt
+67E28EDC  0019F040  depxcrun
+67593E95  0019F064  kghsmf
+67595C04  0019F084  kghalo
+67596989  0019F0D4  kghalf
+675CD757  0019F0F0  kohalc
+675CD5E8  0019F17C  kohalc
+664DF480  0019F19C  trekin
+66466ED8  0019F224  percrc
+5D12F57C  0019F294  ipdemf
+67E14E79  0019F2A8  deppudsfree
+67E2A001  0019F34C  depxcDestroyJavaState
+

@@ -1,0 +1,37 @@
+[05/05/16 15:36:07 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=1324]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  772A08F5 01:0000F8F5
+Module: C:\Windows\system32\MSVCRT.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7601 Service Pack 1
+Command line: "C:\orant\BIN\ifrun60.EXE" Imenu
+FORM/BLOCK/FIELD: STENVIO:B_DETALLE.COD_ARTICULO
+Last Trigger: WHEN-BUTTON-PRESSED - (Updating Error information)
+Msg: <NULL>
+Last Builtin: DO_KEY - (Successfully Completed)
+
+Registers:
+EAX:03400030
+EBX:0000004F
+ECX:00000013
+EDX:7EFEFEFF
+ESI:03400030
+EDI:5D176BB0
+CS:EIP:001B:772A08F5
+SS:ESP:0023:0012EF70  EBP:0133053C
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010203
+
+
+Call stack:
+Address   Frame
+772A08F5  0012EF78  0001:0000F8F5 C:\Windows\system32\MSVCRT.dll
+5D153B8F  0012EF88  sieh_ipfenter
+5DF41358  0012F074  exiterr
+671DA762  0012F080  uiezEnqueueNativeKbdEvent
+6724C226  0031F688  uizutStringSet
+

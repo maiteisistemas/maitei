@@ -1,0 +1,32 @@
+[01/22/16 09:54:22 Hora de verano de Paraguay]::Client Status [ConnId=0, PID=4716]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  67DF69F7 01:000459F7
+Module: C:\orant\BIN\DEB60.dll
+
+System Information:
+Operating System: Windows NT Version 6.2 Build 9200 
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: VTRFAEMD:B_PARAMETRO.COD_VENDEDOR
+Last Trigger: WHEN-VALIDATE-ITEM - (In Progress)
+Msg: <NULL>
+Last Builtin: DO_KEY - (Successfully Completed)
+
+Registers:
+EAX:0019D7A8
+EBX:003785E8
+ECX:00000020
+EDX:00000000
+ESI:67E538B0
+EDI:003785E8
+CS:EIP:0023:67DF69F7
+SS:ESP:002B:0019D6E8  EBP:00000000
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+------------------- End of Stack Trace -------------------
+
+

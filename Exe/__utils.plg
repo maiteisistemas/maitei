@@ -1,0 +1,158 @@
+Resumen de Conversión de PL/SQL V1 - __UTILS
+
+ACCESO (Especificación Paquete)@
+
+CALENDARIOS (Especificación Paquete)@
+
+INIFRM_UTL (Especificación Paquete)@
+
+PARAMETROS (Especificación Paquete)@
+
+TAB (Especificación Paquete)@
+
+INIFRM (Especificación Paquete)@
+
+UTILITARIOS (Especificación Paquete)@
+
+UTL_CALENDARIO (Especificación Paquete)@
+
+UTL_CIERRES (Especificación Paquete)@
+
+UTL_LOG (Especificación Paquete)@
+
+UTL_LOG (Package Body)@
+
+UTL_CIERRES* (Package Body)@
+  ERROR 201 en línea 25, columna 13
+    el identificador 'CIERRES' debe declararse
+  ERROR 201 en línea 55, columna 13
+    el identificador 'CIERRES' debe declararse
+  ERROR 201 en línea 88, columna 13
+    el identificador 'CIERRES' debe declararse
+  ERROR 201 en línea 118, columna 13
+    el identificador 'CIERRES' debe declararse
+  ERROR 201 en línea 148, columna 7
+    el identificador 'SISTEMAS' debe declararse
+  ERROR 201 en línea 179, columna 9
+    el identificador 'SISTEMAS_X_AGENCIA' debe declararse
+  ERROR 364 en línea 190, columna 7
+    el uso de la variable 'AGENC_REC' de índice de bucle no es válido
+  ERROR 201 en línea 228, columna 11
+    el identificador 'PARAMETROS_X_EMPRESA' debe declararse
+  ERROR 201 en línea 275, columna 18
+    el identificador 'CIERRES' debe declararse
+  ERROR 201 en línea 308, columna 12
+    el identificador 'SISTEMAS' debe declararse
+  ERROR 201 en línea 342, columna 16
+    el identificador 'CALENDARIO' debe declararse
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 154 columna 1
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 196 columna 1
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 286 columna 1
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 314 columna 1
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 352 columna 1
+
+SISTEMA_DE_OPENBANK (Cuerpo de la Función)@
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 14 columna 1
+
+UTL_CALENDARIO* (Package Body)@
+  ERROR 201 en línea 65, columna 4
+    el identificador 'COD_AGENCIA' debe declararse
+  ERROR 201 en línea 96, columna 10
+    el identificador 'CALENDARIO' debe declararse
+  ERROR 201 en línea 123, columna 7
+    el identificador 'SISTEMAS' debe declararse
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 68 columna 1
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 100 columna 1
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 129 columna 1
+
+UTILITARIOS* (Package Body)@
+  ERROR 201 en línea 47, columna 25
+    el identificador 'USUARIOS_X_ROLES' debe declararse
+  ERROR 364 en línea 63, columna 12
+    el uso de la variable 'C1REC' de índice de bucle no es válido
+  ERROR 364 en línea 70, columna 12
+    el uso de la variable 'C1REC' de índice de bucle no es válido
+  ERROR 364 en línea 77, columna 12
+    el uso de la variable 'C1REC' de índice de bucle no es válido
+  ERROR 364 en línea 89, columna 12
+    el uso de la variable 'C1REC' de índice de bucle no es válido
+  ERROR 364 en línea 96, columna 12
+    el uso de la variable 'C1REC' de índice de bucle no es válido
+  ERROR 201 en línea 142, columna 15
+    el identificador 'EST_ACTIVO' debe declararse
+  ERROR 201 en línea 227, columna 21
+    el identificador 'MENSAJES_SISTEMA' debe declararse
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 18 columna 5
+  Sin Convertir:  Sustituyendo LENGTH(...) por NVL(LENGTH(...), 0) en línea 111 columna 12
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 147 columna 4
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 160 columna 6
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 284 columna 4
+
+TAB* (Package Body)@
+  ERROR 201 en línea 373, columna 15
+    el identificador 'ETIQUETAS_FORMAS' debe declararse
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 50 columna 4
+
+PARAMETROS* (Package Body)@
+  ERROR 201 en línea 114, columna 7
+    el identificador 'PARAMETROS_X_AGENCIA' debe declararse
+  ERROR 201 en línea 154, columna 7
+    el identificador 'PARAMETROS_X_EMPRESA' debe declararse
+  ERROR 201 en línea 192, columna 7
+    el identificador 'PARAM_GENERALES' debe declararse
+  Sin Convertir:  Sustituyendo LENGTH(...) por NVL(LENGTH(...), 0) en línea 40 columna 18
+  Sin Convertir:  Sustituyendo LENGTH(...) por NVL(LENGTH(...), 0) en línea 50 columna 9
+  Sin Convertir:  Sustituyendo LENGTH(...) por NVL(LENGTH(...), 0) en línea 66 columna 9
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 78 columna 1
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 85 columna 1
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 121 columna 1
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 159 columna 1
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 197 columna 1
+
+OBT_RUTA_OPENBANK (Cuerpo de la Función)@
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 18 columna 4
+
+INIFRM_UTL* (Package Body)@
+  ERROR 201 en línea 29, columna 14
+    el identificador 'EMPRESA' debe declararse
+  ERROR 201 en línea 47, columna 14
+    el identificador 'AGENCIA' debe declararse
+  ERROR 201 en línea 147, columna 11
+    el identificador 'ACT_X_FORM_ROL' debe declararse
+  ERROR 364 en línea 156, columna 18
+    el uso de la variable 'C' de índice de bucle no es válido
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 19 columna 4
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 33 columna 4
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 36 columna 4
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 51 columna 4
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 55 columna 4
+
+INIFRM (Package Body)@
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 238 columna 4
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 269 columna 4
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 273 columna 4
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 306 columna 4
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 310 columna 4
+
+CALENDARIOS* (Package Body)@
+  ERROR 201 en línea 36, columna 19
+    el identificador 'AGENCIA.TRABAJA_SAB' debe declararse
+  ERROR 201 en línea 37, columna 19
+    el identificador 'AGENCIA.TRABAJA_DOM' debe declararse
+  ERROR 201 en línea 38, columna 13
+    el identificador 'FERIADOS_X_AGENCIA.FECHA' debe declararse
+  ERROR 201 en línea 63, columna 18
+    el identificador 'AGENCIA' debe declararse
+  ERROR 320 en línea 70, columna 17
+    la declaración del tipo de expresión es incompleta o con forma inadecuada
+  ERROR 320 en línea 83, columna 20
+    la declaración del tipo de expresión es incompleta o con forma inadecuada
+  ERROR 201 en línea 123, columna 17
+    el identificador 'FERIADOS_X_AGENCIA' debe declararse
+  ERROR 201 en línea 253, columna 15
+    el identificador 'COD_SISTEMA' debe declararse
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 98 columna 1
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 130 columna 1
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 258 columna 1
+
+ACCESO (Package Body)@

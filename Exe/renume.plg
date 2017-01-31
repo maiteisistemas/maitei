@@ -1,0 +1,43 @@
+Resumen de Conversión de PL/SQL V1 - Pantalla: MIGRADOR
+
+WHEN-BUTTON-PRESSED (B_MIGRA.RENUMERAR_ASIENTOS)
+  ERROR 201 en línea 55, columna 19
+    el identificador 'CAB_PROV_OCT' debe declararse
+  ERROR 201 en línea 100, columna 13
+    el identificador 'AX_DIARIO_CABECERAS' debe declararse
+  ERROR 364 en línea 115, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 116, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 117, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 118, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 119, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 120, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 121, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 122, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 123, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 124, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 125, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 126, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 128, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 129, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 364 en línea 130, columna 34
+    el uso de la variable 'DETA' de índice de bucle no es válido
+  ERROR 201 en línea 147, columna 26
+    el identificador 'AX_DIARIO_DETALLES' debe declararse
+  ERROR 201 en línea 197, columna 26
+    el identificador 'AX_DIARIO_CABECERAS' debe declararse
+  ERROR 201 en línea 215, columna 26
+    el identificador 'AX_DIARIO_DETALLES' debe declararse

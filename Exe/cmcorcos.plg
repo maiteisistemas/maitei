@@ -1,0 +1,119 @@
+Resumen de Conversión de PL/SQL V1 - Pantalla: CMDESPAC
+
+WHEN-VALIDATE-ITEM (B_CONFIR.COD_ARTICULO)
+
+WHEN-BUTTON-PRESSED (B_CONFIR.CONFIRMAR)
+
+WHEN-BUTTON-PRESSED (BARRA.GRABAR)
+
+WHEN-BUTTON-PRESSED (BARRA.BUSCAR)
+
+WHEN-BUTTON-PRESSED (BARRA.REVERTIR)
+
+WHEN-BUTTON-PRESSED (BARRA.CORTAR)
+
+WHEN-BUTTON-PRESSED (BARRA.COPIAR)
+
+WHEN-BUTTON-PRESSED (BARRA.PEGAR)
+
+WHEN-BUTTON-PRESSED (BARRA.NUEVO)
+
+WHEN-BUTTON-PRESSED (BARRA.BORRAR)
+
+WHEN-BUTTON-PRESSED (BARRA.ANTERIOR)
+
+WHEN-BUTTON-PRESSED (BARRA.SIGUIENTE)
+
+WHEN-BUTTON-PRESSED (BARRA.PRIMERO)
+
+WHEN-BUTTON-PRESSED (BARRA.ULTIMO)
+
+WHEN-BUTTON-PRESSED (BARRA.LOV)
+
+WHEN-BUTTON-PRESSED (BARRA.EDITOR)
+
+WHEN-BUTTON-PRESSED (BARRA.AYUDAADM)
+
+WHEN-BUTTON-PRESSED (BARRA.ACERCADE)
+
+WHEN-BUTTON-PRESSED (BARRA.TECLAS)
+
+WHEN-BUTTON-PRESSED (BARRA.ERROR)
+
+WHEN-BUTTON-PRESSED (BARRA.SALIR)
+
+WHEN-MOUSE-LEAVE (BARRA)
+
+WHEN-MOUSE-ENTER (BARRA)
+
+INICIALIZA_LOCALES (Cuerpo del Procedimiento)
+
+INICIALIZA_GLOBALES (Cuerpo del Procedimiento)
+
+VER_SALDO (Cuerpo de la Función)
+
+PROCESA* (Cuerpo del Procedimiento)
+  ERROR 201 en línea 295, columna 27
+    el identificador 'BKP_COSTOS_ART' debe declararse
+
+VER_COSTO* (Cuerpo de la Función)
+  ERROR 201 en línea 7, columna 11
+    el identificador 'BKP_COSTOS_ART' debe declararse
+  ERROR 201 en línea 26, columna 11
+    el identificador 'ST.ST_COSTOS_ART' debe declararse
+
+VER_COSTO_US* (Cuerpo de la Función)
+  ERROR 201 en línea 8, columna 11
+    el identificador 'BKP_COSTOS_ART' debe declararse
+  ERROR 201 en línea 27, columna 11
+    el identificador 'ST.ST_COSTOS_ART' debe declararse
+
+PROCESA_VENTAS (Cuerpo del Procedimiento)
+
+VER_COSTO_LOT* (Cuerpo de la Función)
+  ERROR 201 en línea 8, columna 11
+    el identificador 'BKP_COSTOS_ART' debe declararse
+  ERROR 201 en línea 27, columna 11
+    el identificador 'ST.ST_COSTOS_ART' debe declararse
+
+PROCESA_PED* (Cuerpo del Procedimiento)
+  ERROR 201 en línea 256, columna 27
+    el identificador 'BKP_COSTOS_ART' debe declararse
+
+PROCESA_028* (Cuerpo del Procedimiento)
+  ERROR 201 en línea 250, columna 27
+    el identificador 'BKP_COSTOS_ART' debe declararse
+
+WHEN-NEW-ITEM-INSTANCE (CAMPO)
+
+WHEN-MOUSE-DOUBLECLICK (CAMPO)
+
+PRE-FORM (Pantalla)
+
+ON-MESSAGE (Pantalla)
+
+ON-ERROR (Pantalla)
+
+KEY-CLRFRM (Pantalla)
+
+PRE-INSERT (Pantalla)
+
+PRE-DELETE (Pantalla)
+
+PRE-UPDATE (Pantalla)
+
+PRE-QUERY (Pantalla)
+
+WHEN-TIMER-EXPIRED (Pantalla)
+
+WHEN-MOUSE-DOUBLECLICK (B_CONFIR.FEC_INICIAL)
+
+WHEN-NEW-ITEM-INSTANCE (B_CONFIR.FEC_INICIAL)
+
+WHEN-MOUSE-DOUBLECLICK (B_CONFIR.FEC_FINAL)
+
+WHEN-NEW-ITEM-INSTANCE (B_CONFIR.FEC_FINAL)
+
+WHEN-MOUSE-DOUBLECLICK (B_CONFIR.CONFIRMAR)
+
+WHEN-NEW-ITEM-INSTANCE (B_CONFIR.CONFIRMAR)

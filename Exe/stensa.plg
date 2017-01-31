@@ -1,0 +1,13 @@
+PL/SQL V1 Conversion Summary - Z:\Fuentes\stock\Rep\stensa.rdf
+
+CF_UTILIDADFORMULA* (Function Body)
+  ERROR 103 at line 3, column 10
+    Encountered the symbol ":" when expecting one of the following:
+    
+    ( - + ; mod not null <an identifier>
+    <a double-quoted delimited-identifier> <a bind variable> avg
+    count current exists max min prior sql stddev sum variance
+    cast <a string literal with character set specification>
+    <a number> <a single-quoted SQL string>
+    The symbol "; was inserted before ":" to continue.
+  Warning:  Encountered a non-recoverable error, conversion aborted at line 0 column 0

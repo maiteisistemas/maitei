@@ -1,0 +1,52 @@
+[12/04/14 13:51:44 Hora de verano de Paraguay]::Client Status [ConnId=0, PID=3516]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  6720E5EC 01:0004D5EC
+Module: C:\orant\BIN\UIW60.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7601 Service Pack 1
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: VTNOTCRE:B_CABECERA.TIP_COMPROBANTE
+Last Trigger: WHEN-VALIDATE-ITEM - (In Progress)
+Msg: <NULL>
+Last Builtin: SHOW_ALERT - (In Progress)
+
+Registers:
+EAX:001CBAE4
+EBX:001CA010
+ECX:00000000
+EDX:00000003
+ESI:008A7CB8
+EDI:0012A9F6
+CS:EIP:001B:6720E5EC
+SS:ESP:0023:0012A854  EBP:0012A8B4
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012a8b4 003608b4 008a7cb8 0012a9e8 0000000d 00000003 0x6720e5ec          
+0x0012a8d4 003454ed 01694b20 0012a9e8 0012a9e8 00000003 0x003608b4          
+0x0012aa94 003449be 01694b20 016a7dfc 0000016a 00000000 0x003454ed          
+0x0012aac8 671da452 008a7cb8 00000000 00000000 671d7fef 0x003449be          
+0x0012abfc 671da405 008a7cb8 001cd7f4 001cd7d0 0029a3d0 0x671da452          
+0x0012ac20 671da06d 008a7cb8 0029a3d0 001cd7f4 008a7cb8 0x671da405          
+0x0012addc 671d89eb 008a7cb8 00000001 00000000 00000000 0x671da06d          
+0x0012aeb8 6723fb4a 008a7cb8 00000000 00000001 043477ca 0x671d89eb          
+0x0012aee8 0041e0c7 008a7cb8 043477ca 0012b1d0 0434a2f2 0x6723fb4a          
+0x0012b1c4 671db631 008a7cb8 0012b238 016a08c0 001cba8c 0x0041e0c7          
+0x0012b298 67247731 008a7cb8 00000001 00000001 016a08c0 0x671db631          
+0x0012b2c4 004daaea 01694b20 043477ca 0235fc1c 01694b20 0x67247731          
+0x0012b3f0 004c1f8e 016a08c0 00000000 00000000 00000000 0x004daaea          
+0x0012b40c 004cd752 016a1214 0235fc1c 0012c208 00000002 0x004c1f8e          
+0x0012c338 004c4539 0571d654 00000002 05d00e10 00000094 0x004cd752          
+0x0012c350 664b049b 0571d654 00000002 05d00e10 016ad28c 0x004c4539          
+0x0012d450 6646452a 0571d654 016ad28c 03e8d3a4 00000008 0x664b049b          
+0x0012d4b8 005dfebc 016ad28c 0571d654 016e3710 016a1214 0x6646452a          
+0x016ac5c8 016a1214 005a1c70 005a1cb0 00467f50 00000000 0x005dfebc          
+0x016e3710 00000001 0000000a 016bbc60 67fbcf2f 00411890 0x016a1214          
+------------------- End of Stack Trace -------------------
+
+

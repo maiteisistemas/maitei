@@ -1,0 +1,41 @@
+Resumen de Conversión de PL/SQL V1 - Pantalla: FRMBASE
+
+CREAVARGLOBALES (Cuerpo del Procedimiento)
+
+INIVARGLOBALESLOCALES* (Cuerpo del Procedimiento)
+  ERROR 201 en línea 14, columna 30
+    el identificador 'UTILITARIOS.DERECHOS_X_FORMA' debe declararse
+
+WHEN-NEW-FORM-INSTANCE (Pantalla)
+  ERROR 201 en línea 3, columna 1
+    el identificador 'INIFRM.INICIO' debe declararse
+  ERROR 201 en línea 15, columna 26
+    el identificador 'INIFRM.TIT_SISTEMA' debe declararse
+
+KEY-DELREC (Pantalla)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'ACCESO.PRE_DELETE' debe declararse
+
+KEY-CLRFRM (Pantalla)
+  ERROR 201 en línea 6, columna 1
+    el identificador 'INIFRM.INICIO' debe declararse
+  ERROR 201 en línea 18, columna 26
+    el identificador 'INIFRM.TIT_SISTEMA' debe declararse
+
+PRE-INSERT (Pantalla)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'ACCESO.PRE_INSERT' debe declararse
+
+PRE-UPDATE (Pantalla)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'ACCESO.PRE_UPDATE' debe declararse
+
+PRE-QUERY (Pantalla)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'ACCESO.PRE_QUERY' debe declararse
+
+P6_27_OCT_201211_28_38* (Bloque)
+
+P7_27_OCT_201211_28_38* (Bloque)
+
+P8_27_OCT_201211_28_38* (Bloque)

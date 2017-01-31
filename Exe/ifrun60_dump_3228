@@ -1,0 +1,37 @@
+[01/15/16 11:52:33 Hora de verano de Paraguay]::Client Status [ConnId=0, PID=3228]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  664F35B0 01:000A25B0
+Module: C:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.2 Build 9200 
+Command line: IFDBG60 -SsL09@
+FORM/BLOCK/FIELD: CPJSONRE:B_RETENCION.COD_SUCURSAL
+Last Trigger: WHEN-MOUSE-DOUBLECLICK - (In Progress)
+Msg: ORA-100501
+Last Builtin: MESSAGE - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:04C91174
+ECX:00000000
+EDX:02F7A584
+ESI:0019DA90
+EDI:02F41EC8
+CS:EIP:0023:664F35B0
+SS:ESP:002B:0019CD7C  EBP:0019CD9C
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00210246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0019cd9c 664b8296 02f7a584 00000001 0019da90 04c91174 0x664f35b0          
+0x0019dea0 6646452a 02f7a584 02f41ec8 02fd3a38 00000001 0x664b8296          
+0x0019df08 00a5febc 02f41ec8 02f7a584 02f4ff88 02f2de84 0x6646452a          
+0x02f40804 02f2de84 00a21c70 00a21cb0 007ebc40 00000000 0x00a5febc          
+0x02f4ff88 00000001 0000000a 02f50450 67fbcf2f 00795492 0x02f2de84          
+------------------- End of Stack Trace -------------------
+
+

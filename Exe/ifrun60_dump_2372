@@ -1,0 +1,69 @@
+[08/03/16 16:29:44 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=2372]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  005AD9D7 01:0005C9D7
+Module: C:\orant\BIN\DE60.dll
+
+System Information:
+Operating System: Windows NT Version 5.1 Build 2600 Service Pack 3
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: BSMENU:B_MENU.CAMBIO
+Last Trigger: KEY-EXIT - (In Progress)
+Msg: <NULL>
+Last Builtin: SET_ITEM_PROPERTY/SET_FIELD - (Successfully Completed)
+
+Registers:
+EAX:0013DA70
+EBX:02331C84
+ECX:00000020
+EDX:00000000
+ESI:0065D0D8
+EDI:02331C84
+CS:EIP:001B:005AD9D7
+SS:ESP:0023:0013D9B0  EBP:00000000
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+------------------- End of Stack Trace -------------------
+
+
+[08/12/16 10:04:30 Hora de verano romance]::Client Status [ConnId=0, PID=2372]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  664F35B0 01:000A25B0
+Module: C:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7600 
+Command line: IFDBG60 -SsL09@
+FORM/BLOCK/FIELD: CCMOVVAL:B_DETALLE.TIP_DOCUMENTO
+Last Trigger: WHEN-NEW-ITEM-INSTANCE - (In Progress)
+Msg: <NULL>
+Last Builtin: NEXT_FIELD - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:02936E98
+ECX:00000000
+EDX:028BD798
+ESI:0012DA98
+EDI:028960F4
+CS:EIP:001B:664F35B0
+SS:ESP:0023:0012CD84  EBP:0012CDA4
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012cda4 664b8296 028bd798 00000001 0012da98 02936e98 0x664f35b0          
+0x0012dea8 6646452a 028bd798 028960f4 028dff48 00000001 0x664b8296          
+0x0012df10 0024febc 028960f4 028bd798 028b56f8 02873a3c 0x6646452a          
+0x02895610 02873a3c 00211c70 00211cb0 0073bc40 00000000 0x0024febc          
+0x028b56f8 00000001 0000000a 028921d0 67fbcf2f 006e5492 0x02873a3c          
+------------------- End of Stack Trace -------------------
+
+

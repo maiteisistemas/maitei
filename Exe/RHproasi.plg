@@ -1,0 +1,231 @@
+Resumen de Conversión de PL/SQL V1 - Pantalla: RHPROASI
+
+WHEN-VALIDATE-ITEM (B_BASE.MES)
+
+WHEN-VALIDATE-ITEM (B_BASE.ANIO)
+
+WHEN-NEW-ITEM-INSTANCE (B_BASE.FEC_INICIAL)
+
+WHEN-NEW-ITEM-INSTANCE (B_BASE.FEC_FINAL)
+
+WHEN-VALIDATE-ITEM (B_BASE.COD_CENTRO_PAGO)
+
+WHEN-BUTTON-PRESSED (B_BASE.GENERAR)
+
+WHEN-BUTTON-PRESSED (B_BASE.BORRAR)
+
+WHEN-CREATE-RECORD (B_BASE)
+
+WHEN-VALIDATE-ITEM (B_DEBCRED.COD_CONCEPTO)
+
+WHEN-VALIDATE-ITEM (B_DEBCRED.COD_EMPLEADO)
+
+WHEN-VALIDATE-ITEM (B_DEBCRED.FEC_DEBCRED)
+
+WHEN-VALIDATE-ITEM (B_DEBCRED.CANTIDAD)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.MONTO)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.SUELDO)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.COEFICIENTE)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.UNIDAD)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.FRECUENCIA_LIQUID)
+
+WHEN-CREATE-RECORD (B_DEBCRED)
+
+PRE-INSERT (B_DEBCRED)
+
+PRE-UPDATE (B_DEBCRED)
+
+POST-QUERY (B_DEBCRED)
+
+WHEN-BUTTON-PRESSED (BARRA.GRABAR)
+
+WHEN-BUTTON-PRESSED (BARRA.BUSCAR)
+
+WHEN-BUTTON-PRESSED (BARRA.REVERTIR)
+
+WHEN-BUTTON-PRESSED (BARRA.CORTAR)
+
+WHEN-BUTTON-PRESSED (BARRA.COPIAR)
+
+WHEN-BUTTON-PRESSED (BARRA.PEGAR)
+
+WHEN-BUTTON-PRESSED (BARRA.NUEVO)
+
+WHEN-BUTTON-PRESSED (BARRA.BORRAR)
+
+WHEN-BUTTON-PRESSED (BARRA.ANTERIOR)
+
+WHEN-BUTTON-PRESSED (BARRA.SIGUIENTE)
+
+WHEN-BUTTON-PRESSED (BARRA.PRIMERO)
+
+WHEN-BUTTON-PRESSED (BARRA.ULTIMO)
+
+WHEN-BUTTON-PRESSED (BARRA.LOV)
+
+WHEN-BUTTON-PRESSED (BARRA.EDITOR)
+
+WHEN-BUTTON-PRESSED (BARRA.AYUDAADM)
+
+WHEN-BUTTON-PRESSED (BARRA.ACERCADE)
+
+WHEN-BUTTON-PRESSED (BARRA.TECLAS)
+
+WHEN-BUTTON-PRESSED (BARRA.ERROR)
+
+WHEN-BUTTON-PRESSED (BARRA.SALIR)
+
+WHEN-MOUSE-LEAVE (BARRA)
+
+WHEN-MOUSE-ENTER (BARRA)
+
+INICIALIZA_LOCALES (Cuerpo del Procedimiento)
+
+INICIALIZA_GLOBALES (Cuerpo del Procedimiento)
+
+DERECHO_FORMA (Cuerpo de la Función)
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 17 columna 1
+
+AGRUPA (Cuerpo del Procedimiento)
+
+PROCESA (Cuerpo del Procedimiento)
+  Convertido:  CHAR a VARCHAR2 en línea 219 columna 11
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 219 columna 11
+  Convertido:  CHAR a VARCHAR2 en línea 220 columna 13
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 220 columna 13
+
+GRABA* (Cuerpo del Procedimiento)
+
+AUSENCIAS* (Cuerpo del Procedimiento)
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 8 columna 11
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 10 columna 9
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 11 columna 10
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 12 columna 11
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 13 columna 7
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 14 columna 12
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 15 columna 14
+
+COMPENSA (Cuerpo del Procedimiento)
+
+ACOMPENSAR (Cuerpo del Procedimiento)
+
+ANORMAL (Cuerpo de la Función)
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 8 columna 6
+  Convertido:  CHAR a VARCHAR2 en línea 36 columna 11
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 36 columna 11
+  Convertido:  CHAR a VARCHAR2 en línea 37 columna 13
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 37 columna 13
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 113 columna 1
+
+PROCESA_027 (Cuerpo del Procedimiento)
+  Convertido:  CHAR a VARCHAR2 en línea 208 columna 11
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 208 columna 11
+  Convertido:  CHAR a VARCHAR2 en línea 209 columna 13
+  Convertido:  No hay limitación de longitud para la declaración de cadena en línea 209 columna 13
+
+SALARIO_PROMEDIO (Cuerpo del Procedimiento)
+
+JORNALEROS (Cuerpo del Procedimiento)
+
+HORAS_TARDIAS (Cuerpo del Procedimiento)
+
+WHEN-NEW-ITEM-INSTANCE (CAMPO)
+
+WHEN-MOUSE-DOUBLECLICK (CAMPO)
+
+PRE-FORM (Pantalla)
+
+KEY-CLRFRM (Pantalla)
+
+PRE-INSERT (Pantalla)
+
+PRE-DELETE (Pantalla)
+
+PRE-UPDATE (Pantalla)
+
+PRE-QUERY (Pantalla)
+
+WHEN-TIMER-EXPIRED (Pantalla)
+
+WHEN-MOUSE-DOUBLECLICK (B_BASE.MES)
+
+WHEN-NEW-ITEM-INSTANCE (B_BASE.MES)
+
+WHEN-MOUSE-DOUBLECLICK (B_BASE.ANIO)
+
+WHEN-NEW-ITEM-INSTANCE (B_BASE.ANIO)
+
+WHEN-MOUSE-DOUBLECLICK (B_BASE.FEC_MOV)
+
+WHEN-NEW-ITEM-INSTANCE (B_BASE.FEC_MOV)
+
+WHEN-MOUSE-DOUBLECLICK (B_BASE.FEC_INICIAL)
+
+WHEN-MOUSE-DOUBLECLICK (B_BASE.FEC_FINAL)
+
+WHEN-MOUSE-DOUBLECLICK (B_BASE.COD_CENTRO_PAGO)
+
+WHEN-NEW-ITEM-INSTANCE (B_BASE.COD_CENTRO_PAGO)
+
+WHEN-MOUSE-DOUBLECLICK (B_BASE.DESC_CENTRO_PAGO)
+
+WHEN-NEW-ITEM-INSTANCE (B_BASE.DESC_CENTRO_PAGO)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.COD_EMPRESA)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.COD_EMPRESA)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.SER_DEBCRED)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.SER_DEBCRED)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.NRO_DEBCRED)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.NRO_DEBCRED)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.COD_CONCEPTO)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.COD_CONCEPTO)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.COD_EMPLEADO)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.COD_EMPLEADO)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.FEC_DEBCRED)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.FEC_DEBCRED)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.TIPO)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.TIPO)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.CANTIDAD)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.CANTIDAD)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.MONTO)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.SUELDO)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.COEFICIENTE)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.UNIDAD)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.FRECUENCIA_LIQUID)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.ORIGEN)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.ORIGEN)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.DESC_EMPLEADO)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.DESC_EMPLEADO)
+
+WHEN-MOUSE-DOUBLECLICK (B_DEBCRED.DESC_CONCEPTO)
+
+WHEN-NEW-ITEM-INSTANCE (B_DEBCRED.DESC_CONCEPTO)

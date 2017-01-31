@@ -1,0 +1,48 @@
+Resumen de Conversión de PL/SQL V1 - Z:\Fuentes\conta\rep\cocombie.rdf
+
+CF_1FORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'EMPRESAS' debe declararse
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 29
+
+PP_DESC_SUCURSALFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'SUCURSALES' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 41
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 12 columna 1
+
+PP_DESC_CENTROFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'CO_CENTRO_COSTOS' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 39
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 13 columna 1
+
+PP_DESC_DEPARTAMENTOFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'CO_DEPARTAMENTOS' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 45
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 13 columna 1
+
+PP_DESC_SECCIONFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'CO_SECCIONES' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 40
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 13 columna 1
+
+PP_DESC_TIPO_BIENFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'CO_TIPOS_BIENES' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 42
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 11 columna 1
+
+CF_1FORMULA0036* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'CO_BIENES_USO' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 33
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 12 columna 1
+
+B_13FORMATTRIGGER (Cuerpo de la Función)
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 8 columna 1
+
+B_24FORMATTRIGGER (Cuerpo de la Función)
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 8 columna 1

@@ -1,0 +1,41 @@
+[12/04/15 15:58:59 Hora de verano de Paraguay]::Client Status [ConnId=0, PID=292]
+	>> ERROR: Abnormal termination, Error Code: C0000094 INT_DIVIDE_BY_ZERO
+
+======================= STACK DUMP =======================
+
+Fault address:  6648ACE7 01:00039CE7
+Module: C:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7601 Service Pack 1
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: VTFACTUR:B_CABECERA.FEC_COMPROBANTE
+Last Trigger: WHEN-NEW-ITEM-INSTANCE - (In Progress)
+Msg: <NULL>
+Last Builtin: SET_BLOCK_PROPERTY - (Successfully Completed)
+
+Registers:
+EAX:00000054
+EBX:0086D28C
+ECX:00000000
+EDX:00000000
+ESI:00000000
+EDI:0504A990
+CS:EIP:001B:6648ACE7
+SS:ESP:0023:0012C9BC  EBP:0012C9D8
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012c9d8 66493413 0086d28c 0012cb40 0012cb1c 6648ac50 0x6648ace7          
+0x0012cb44 66494bec 0504a990 0012cb88 047248f8 00000000 0x66493413          
+0x0012cbb0 6648ac38 1986d28c 0012cbf4 0848ac50 047248f8 0x66494bec          
+0x0012cbfc 6648aa91 0086d28c 047248f8 00000019 00000000 0x6648ac38          
+0x0012cc7c 005b980b 0086d28c 047248f8 00000019 00000000 0x6648aa91          
+0x0086d28c 047248f8 0086c5c8 00000000 00000000 00000000 0x005b980b          
+0x008a4168 008a5120 008a5220 00000000 008ac5a0 00000000 0x047248f8          
+0x008a55a0 00000000 008a695c 00000000 00000000 00000000 0x008a5120          
+0x008a5bd8 00001024 00000000 050e499c 04729dec 008a5cdc 0x00000000          
+------------------- End of Stack Trace -------------------
+
+

@@ -1,0 +1,145 @@
+Resumen de Conversión de PL/SQL V1 - Pantalla: FRRPAGAR
+
+WHEN-VALIDATE-ITEM (B_LIST.COD_CLASE)
+  ERROR 201 en línea 4, columna 10
+    el identificador 'FR_CLASES_FERIAS' debe declararse
+
+WHEN-VALIDATE-ITEM (B_LIST.COD_CLI_DES)
+
+WHEN-BUTTON-PRESSED (B_LIST.EJECUTAR)
+
+WHEN-BUTTON-PRESSED (B_LIST.SALIR)
+
+KEY-DOWN (B_LIST)
+
+KEY-UP (B_LIST)
+
+WHEN-BUTTON-PRESSED (BARRA.GRABAR)
+
+WHEN-BUTTON-PRESSED (BARRA.BUSCAR)
+
+WHEN-BUTTON-PRESSED (BARRA.REVERTIR)
+
+WHEN-BUTTON-PRESSED (BARRA.CORTAR)
+
+WHEN-BUTTON-PRESSED (BARRA.COPIAR)
+
+WHEN-BUTTON-PRESSED (BARRA.PEGAR)
+
+WHEN-BUTTON-PRESSED (BARRA.NUEVO)
+
+WHEN-BUTTON-PRESSED (BARRA.BORRAR)
+
+WHEN-BUTTON-PRESSED (BARRA.ANTERIOR)
+
+WHEN-BUTTON-PRESSED (BARRA.SIGUIENTE)
+
+WHEN-BUTTON-PRESSED (BARRA.PRIMERO)
+
+WHEN-BUTTON-PRESSED (BARRA.ULTIMO)
+
+WHEN-BUTTON-PRESSED (BARRA.LOV)
+
+WHEN-BUTTON-PRESSED (BARRA.EDITOR)
+
+WHEN-BUTTON-PRESSED (BARRA.AYUDAADM)
+
+WHEN-BUTTON-PRESSED (BARRA.ACERCADE)
+
+WHEN-BUTTON-PRESSED (BARRA.TECLAS)
+
+WHEN-BUTTON-PRESSED (BARRA.ERROR)
+
+WHEN-BUTTON-PRESSED (BARRA.SALIR)
+
+WHEN-MOUSE-LEAVE (BARRA)
+
+WHEN-MOUSE-ENTER (BARRA)
+
+INICIALIZA_LOCALES (Cuerpo del Procedimiento)
+
+INICIALIZA_GLOBALES (Cuerpo del Procedimiento)
+
+NUM_LETRAS (Cuerpo de la Función)
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 18 columna 3
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 41 columna 3
+  Convertido:  Sustituyendo LENGTH(...) por NVL(LENGTH(...), 0) en línea 48 columna 59
+  Convertido:  Sustituyendo LENGTH(...) por NVL(LENGTH(...), 0) en línea 50 columna 24
+  Convertido:  Sustituyendo LENGTH(...) por NVL(LENGTH(...), 0) en línea 51 columna 6
+  Convertido:  Sustituyendo LENGTH(...) por NVL(LENGTH(...), 0) en línea 52 columna 79
+  Convertido:  Sustituyendo LENGTH(...) por NVL(LENGTH(...), 0) en línea 53 columna 96
+  Convertido:  Sustituyendo LENGTH(...) por NVL(LENGTH(...), 0) en línea 54 columna 34
+  Convertido:  Sustituyendo LENGTH(...) por NVL(LENGTH(...), 0) en línea 63 columna 40
+
+IMPRIME_PAGARECA* (Cuerpo del Procedimiento)
+  ERROR 201 en línea 39, columna 6
+    el identificador 'FR_MOVIM_FERIAS' debe declararse
+  ERROR 364 en línea 77, columna 21
+    el uso de la variable 'F' de índice de bucle no es válido
+  ERROR 364 en línea 81, columna 36
+    el uso de la variable 'F' de índice de bucle no es válido
+  ERROR 364 en línea 87, columna 60
+    el uso de la variable 'F' de índice de bucle no es válido
+  ERROR 364 en línea 95, columna 31
+    el uso de la variable 'F' de índice de bucle no es válido
+  ERROR 364 en línea 100, columna 42
+    el uso de la variable 'F' de índice de bucle no es válido
+  ERROR 364 en línea 104, columna 36
+    el uso de la variable 'F' de índice de bucle no es válido
+
+IMPRIME_PAGARE* (Cuerpo del Procedimiento)
+  ERROR 201 en línea 43, columna 6
+    el identificador 'FR_MOVIM_FERIAS' debe declararse
+  ERROR 364 en línea 78, columna 31
+    el uso de la variable 'F' de índice de bucle no es válido
+  ERROR 364 en línea 81, columna 28
+    el uso de la variable 'F' de índice de bucle no es válido
+  ERROR 364 en línea 86, columna 39
+    el uso de la variable 'F' de índice de bucle no es válido
+  ERROR 364 en línea 90, columna 59
+    el uso de la variable 'F' de índice de bucle no es válido
+  ERROR 364 en línea 97, columna 42
+    el uso de la variable 'F' de índice de bucle no es válido
+  ERROR 364 en línea 103, columna 48
+    el uso de la variable 'F' de índice de bucle no es válido
+
+LETRAS (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 2 columna 49
+
+WHEN-NEW-ITEM-INSTANCE (CAMPO)
+
+WHEN-MOUSE-DOUBLECLICK (CAMPO)
+
+WHEN-NEW-FORM-INSTANCE (Pantalla)
+
+KEY-CLRFRM (Pantalla)
+
+WHEN-TIMER-EXPIRED (Pantalla)
+
+WHEN-MOUSE-DOUBLECLICK (B_LIST.NRO_FERIA)
+
+WHEN-NEW-ITEM-INSTANCE (B_LIST.NRO_FERIA)
+
+WHEN-MOUSE-DOUBLECLICK (B_LIST.COD_CLASE)
+
+WHEN-NEW-ITEM-INSTANCE (B_LIST.COD_CLASE)
+
+WHEN-MOUSE-DOUBLECLICK (B_LIST.DESC_CLASE)
+
+WHEN-NEW-ITEM-INSTANCE (B_LIST.DESC_CLASE)
+
+WHEN-MOUSE-DOUBLECLICK (B_LIST.SER_FERIA)
+
+WHEN-NEW-ITEM-INSTANCE (B_LIST.SER_FERIA)
+
+WHEN-MOUSE-DOUBLECLICK (B_LIST.COD_CLI_DES)
+
+WHEN-NEW-ITEM-INSTANCE (B_LIST.COD_CLI_DES)
+
+WHEN-MOUSE-DOUBLECLICK (B_LIST.DESC_DES)
+
+WHEN-NEW-ITEM-INSTANCE (B_LIST.DESC_DES)
+
+WHEN-MOUSE-DOUBLECLICK (B_LIST.DESC_HAS)
+
+WHEN-NEW-ITEM-INSTANCE (B_LIST.DESC_HAS)

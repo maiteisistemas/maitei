@@ -1,0 +1,54 @@
+[09/01/16 07:50:33 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=1160]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  00610EDA 01:0004FEDA
+Module: C:\orant\BIN\ifrcm60.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7601 Service Pack 1
+Command line: "C:\orant\BIN\ifrun60.EXE" Imenu
+FORM/BLOCK/FIELD: CPCOMPRN:B_CABECERA.TIP_COMPROBANTE
+Last Trigger: WHEN-BUTTON-PRESSED - (Execution Suspended)
+Msg: <NULL>
+Last Builtin: CALL_FORM - (Successfully Completed)
+
+Registers:
+EAX:02F6BC70
+EBX:00000000
+ECX:02EEF958
+EDX:00000000
+ESI:00000000
+EDI:00000001
+CS:EIP:0023:00610EDA
+SS:ESP:002B:0018E21C  EBP:0018E288
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010202
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0018e288 004f79a2 01da1c50 01dacdb0 02f66db8 051fa8d0 0x00610eda          
+0x0018e6a0 004a5c97 01dacdb0 02f66db8 01da1c50 01dacdb0 0x004f79a2          
+0x0018e6e8 004a5560 01da1c50 0520318c 051fa8d0 0521ab00 0x004a5c97          
+0x0018e9ec 004b109d 02f66db8 0018ea80 0018ea34 0521ab00 0x004a5560          
+0x0018ea0c 0048a187 01dacdb0 0521ab00 0018ea80 0018ea34 0x004b109d          
+0x0018ea78 00489fc7 01dacdb0 0521ab00 00a00000 00000000 0x0048a187          
+0x0018eab0 00487eb6 00000000 0521ab00 00a00000 00000000 0x00489fc7          
+0x0018ede8 00485f42 0511ad28 00000000 053e423c 01dacdb0 0x00487eb6          
+0x0018f158 004acb1f 01dacdb0 00000001 0511ad28 01dacdb0 0x00485f42          
+0x0018f1a8 004ab435 051c4b94 00000001 0511ad28 01dacdb0 0x004acb1f          
+0x0018f240 004ab2e0 053e2ba0 00000000 01dacdb0 0511ad28 0x004ab435          
+0x0018f264 004aedce 053e423c 00000000 053e2ba0 01dacdb0 0x004ab2e0          
+0x0018f2a4 004ae55f 053e2ba0 051e5480 051b9544 01dacdb0 0x004aedce          
+0x0018f2d4 004adf0d 0511ad28 051b9544 051b9544 01dacdb0 0x004ae55f          
+0x0018f2fc 004ad14a 0511ad28 051b9544 00000000 01dacdb0 0x004adf0d          
+0x0018f34c 0048a3d7 00000000 00000001 0018f384 00000000 0x004ad14a          
+0x0018f3b4 00489e06 02df817c 01da3a54 00000000 00000001 0x0048a3d7          
+0x0018f4d0 00482f0e 00000000 01db0e48 00000005 01db0bc8 0x00489e06          
+0x0018fd30 004819e9 00000014 00000000 00000002 025f0a90 0x00482f0e          
+0x0018fd54 004818be 020209d0 00000000 00000000 00000002 0x004819e9          
+0x0018fd74 100088f2 020209d0 00000000 00000000 00000002 0x004818be          
+0x0018fdc4 1000a26f 02021a4c 00403010 00000000 00000002 0x100088f2          
+------------------- End of Stack Trace -------------------
+
+

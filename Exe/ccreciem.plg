@@ -1,0 +1,12 @@
+Resumen de Conversión de PL/SQL V1 - D:\fuentes\Fuentes P\Fuentes\cta_cob\rep\CCreciem.RDF
+
+EMPRESAFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 32
+
+CF_COBRADORFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 11 columna 1
+
+CF_SUCURSALFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 10 columna 1

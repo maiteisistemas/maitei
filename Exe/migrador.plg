@@ -1,0 +1,25 @@
+Resumen de Conversión de PL/SQL V1 - Pantalla: MIGRADOR
+
+WHEN-BUTTON-PRESSED (BL1.PLAN_CUENTA)
+
+WHEN-BUTTON-PRESSED (BL1.DIARIO_CABECERA)
+
+WHEN-BUTTON-PRESSED (BL1.DIARIO_DETALLE)
+
+WHEN-BUTTON-PRESSED (BL1.MOVIMIENTOS)
+
+PLAN_CUENTA* (Cuerpo del Procedimiento)
+  ERROR 395 en línea 8, columna 41
+    número incorrecto de valores en la cláusula VALUES de la sentencia INSERT
+
+DIARIO_CABECERA* (Cuerpo del Procedimiento)
+  ERROR 395 en línea 21, columna 47
+    número incorrecto de valores en la cláusula VALUES de la sentencia INSERT
+
+DIARIO_DETALLE* (Cuerpo del Procedimiento)
+  ERROR 395 en línea 19, columna 49
+    número incorrecto de valores en la cláusula VALUES de la sentencia INSERT
+
+MOVIMIENTOS_BIENES* (Cuerpo del Procedimiento)
+  ERROR 395 en línea 42, columna 21
+    número incorrecto de valores en la cláusula VALUES de la sentencia INSERT

@@ -1,0 +1,32 @@
+[09/12/16 09:50:41 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=1616]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  67DF6BAC 01:00045BAC
+Module: C:\orant\BIN\DEB60.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7601 Service Pack 1
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: STENTSAL:B_CABECERA.NRO_COMPROBANTE_REF
+Last Trigger: WHEN-VALIDATE-ITEM - (In Progress)
+Msg: <NULL>
+Last Builtin: NEXT_FIELD - (Successfully Completed)
+
+Registers:
+EAX:044CB210
+EBX:015B1E99
+ECX:000001F9
+EDX:00000949
+ESI:015B1FFD
+EDI:044CB374
+CS:EIP:001B:67DF6BAC
+SS:ESP:0023:0012D6D0  EBP:00000014
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010202
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+------------------- End of Stack Trace -------------------
+
+

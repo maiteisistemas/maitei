@@ -1,0 +1,37 @@
+[09/03/16 15:32:49 Hora de verano romance]::Client Status [ConnId=0, PID=3800]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  664F35B0 01:000A25B0
+Module: C:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7600 
+Command line: IFDBG60 -SsL09@
+FORM/BLOCK/FIELD: STREMISI:B_DETALLE.CANTIDAD
+Last Trigger: WHEN-MOUSE-DOUBLECLICK - (In Progress)
+Msg: ORA-01403
+Last Builtin: SYNCHRONIZE - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:04EFD3B0
+ECX:00000000
+EDX:0248D884
+ESI:0012DA98
+EDI:024662B4
+CS:EIP:001B:664F35B0
+SS:ESP:0023:0012CD84  EBP:0012CDA4
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012cda4 664b8296 0248d884 00000001 0012da98 04efd3b0 0x664f35b0          
+0x0012dea8 6646452a 0248d884 024662b4 024f8e2c 00000001 0x664b8296          
+0x0012df10 0049febc 024662b4 0248d884 024856f8 02443a3c 0x6646452a          
+0x02465690 02443a3c 00461c70 00461cb0 0066bc40 00000000 0x0049febc          
+0x024856f8 00000001 0000000a 024621d0 67fbcf2f 00615492 0x02443a3c          
+------------------- End of Stack Trace -------------------
+
+

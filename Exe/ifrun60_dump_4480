@@ -1,0 +1,56 @@
+[05/20/16 15:30:24 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=4480]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  00BF4AE4 01:00013AE4
+Module: C:\orant\BIN\ifrcm60.dll
+
+System Information:
+Operating System: Windows NT Version 6.2 Build 9200 
+Command line: "C:\orant\BIN\ifrun60.EXE" Imenu
+FORM/BLOCK/FIELD: STREMPED:B_CABECERA.COD_SUCURSAL
+Last Trigger: WHEN-BUTTON-PRESSED - (Execution Suspended)
+Msg: <NULL>
+Last Builtin: DO_KEY - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:0510BBD4
+ECX:FFFFFFFF
+EDX:00000096
+ESI:001C08F0
+EDI:001C08F0
+CS:EIP:0023:00BF4AE4
+SS:ESP:002B:0019E7A8  EBP:0019E7B4
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0019e7b4 00aec282 02de2710 001c08f0 0510bdf9 0510bdf9 0x00bf4ae4          
+0x0019e7e0 00aec031 00000001 0019e804 00ae923f 0510bbd4 0x00aec282          
+0x0019e7ec 00ae923f 0510bbd4 0510c037 0510bbd4 0510bffa 0x00aec031          
+0x0019e804 00ae5f26 0510bbd4 00000000 02ded870 02de2710 0x00ae923f          
+0x0019e91c 00ab0dbe 02de2710 0517d1e8 00000000 00000000 0x00ae5f26          
+0x0019e9d4 00aa49b9 0510bbd4 02ea3fb0 05165cbc 00000000 0x00ab0dbe          
+0x0019ea10 00aaa44c 0529ec4c 00000000 02de2710 02ded870 0x00aa49b9          
+0x0019ea70 00aa9fc7 00a407a0 02df5f8c 00a00000 00000000 0x00aaa44c          
+0x0019eaa8 00aa7eb6 00000000 02df5f8c 00a00000 00000000 0x00aa9fc7          
+0x0019ede0 00aa5f42 02ea3fb0 00000000 052a4084 02ded870 0x00aa7eb6          
+0x0019f150 00accb1f 02ded870 00000001 02ea3fb0 02ded870 0x00aa5f42          
+0x0019f1a0 00acb435 0517f6c4 00000001 02ea3fb0 02ded870 0x00accb1f          
+0x0019f238 00acb2e0 052a2ba0 00000000 02ded870 02ea3fb0 0x00acb435          
+0x0019f25c 00acedce 052a4084 00000000 052a2ba0 02ded870 0x00acb2e0          
+0x0019f29c 00ace55f 052a2ba0 051f0328 05178100 02ded870 0x00acedce          
+0x0019f2cc 00acdf0d 02ea3fb0 05178100 050fde74 02ded870 0x00ace55f          
+0x0019f2f4 00acd14a 02ea3fb0 050fde74 00000000 02ded870 0x00acdf0d          
+0x0019f344 00aaa3d7 00000000 00000001 0019f37c 00000000 0x00acd14a          
+0x0019f3ac 00aa9e06 04cb817c 02de44f4 00000000 00000001 0x00aaa3d7          
+0x0019f4c8 00aa2f0e 00000000 02df1908 00000005 02df1688 0x00aa9e06          
+0x0019fd28 00aa19e9 00000014 00000000 00000002 02900b50 0x00aa2f0e          
+0x0019fd4c 00aa18be 00d607a8 00000000 00000000 00000002 0x00aa19e9          
+0x0019fd6c 100088f2 00d607a8 00000000 00000000 00000002 0x00aa18be          
+0x0019fdbc 1000a26f 00d61ccc 00403010 00000000 00000002 0x100088f2          
+------------------- End of Stack Trace -------------------
+
+

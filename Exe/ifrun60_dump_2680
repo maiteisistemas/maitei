@@ -1,0 +1,76 @@
+[06/25/16 11:07:27 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=2680]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  0027B8DC 01:0005A8DC
+Module: C:\orant\BIN\ifrcm60.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7601 Service Pack 1
+Command line: "C:\orant\BIN\ifrun60.EXE" Imenu
+FORM/BLOCK/FIELD: IMENU:B_CONTRASEÑA.CONECTAR
+Last Trigger: WHEN-BUTTON-PRESSED - (Execution Suspended)
+Msg: <NULL>
+Last Builtin: OPEN_FORM - (Successfully Completed)
+
+Registers:
+EAX:03163F40
+EBX:000552F4
+ECX:0005561C
+EDX:02E49594
+ESI:0316EDFC
+EDI:0018F25C
+CS:EIP:0023:0027B8DC
+SS:ESP:002B:0018EF00  EBP:0018EF48
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010212
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0018ef48 004354d6 01f91c50 0018f25c 0018f250 00000077 0x0027b8dc          
+0x0018f260 0044109d 01f9cdb0 0018f2c0 0018f2a8 0200a540 0x004354d6          
+0x0018f280 0041aa3a 01f9cdb0 0200a540 0018f2c0 0018f2a8 0x0044109d          
+0x0018f2b8 0041a960 01f9cdb0 0200a540 01000000 00000001 0x0041aa3a          
+0x0018f2e8 0043d673 01f9cdb0 0200a540 01000000 00000000 0x0041a960          
+0x0018f34c 0041a3d7 00000000 01fa28b0 0018f384 00000000 0x0043d673          
+0x0018f3b4 00419e06 0334817c 01f93a54 00000000 00000001 0x0041a3d7          
+0x0018f4d0 00412f0e 00000000 01fa0e48 00000005 01fa0bc8 0x00419e06          
+0x0018fd30 004119e9 00000014 00000000 00000002 02630a90 0x00412f0e          
+0x0018fd54 004118be 003309d0 00000000 00000000 00000002 0x004119e9          
+0x0018fd74 100088f2 003309d0 00000000 00000000 00000002 0x004118be          
+0x0018fdc4 1000a26f 00331a4c 00403010 00000000 00000002 0x100088f2          
+------------------- End of Stack Trace -------------------
+
+
+[08/17/16 15:08:21 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=2680]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  005AD9D7 01:0005C9D7
+Module: C:\orant\BIN\DE60.dll
+
+System Information:
+Operating System: Windows NT Version 5.1 Build 2600 Service Pack 3
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: BSMENU:B_MENU.CAMBIO
+Last Trigger: KEY-EXIT - (In Progress)
+Msg: <NULL>
+Last Builtin: SET_ITEM_PROPERTY/SET_FIELD - (Successfully Completed)
+
+Registers:
+EAX:0013DA70
+EBX:01BE1C84
+ECX:00000020
+EDX:00000000
+ESI:0065D0D8
+EDI:01BE1C84
+CS:EIP:001B:005AD9D7
+SS:ESP:0023:0013D9B0  EBP:00000000
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+------------------- End of Stack Trace -------------------
+
+

@@ -1,0 +1,138 @@
+Resumen de Conversión de PL/SQL V1 - Pantalla: FBASE
+
+POST-BLOCK (ETIQUETAS)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.SALVAR)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.IMPRIMIR)
+  ERROR 201 en línea 54, columna 8
+    el identificador 'TOOLBAR.REPORTES' debe declararse
+  Convertido:  Sustituyendo LENGTH(...) por NVL(LENGTH(...), 0) en línea 37 columna 24
+
+WHEN-BUTTON-PRESSED (TOOLBAR.CONSULTAR)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.REVERSAR)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.CORTAR)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.COPIAR)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.PEGAR)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.NUEVO)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.BORRAR)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.ANTERIOR)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.SIGUIENTE)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.PRIMERO)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.ULTIMO)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.LOV)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.EDITOR)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.CALC)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'TOOLBAR.CALCULADORA' debe declararse
+
+WHEN-BUTTON-PRESSED (TOOLBAR.CALENDARIO)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'TOOLBAR.CALENDARIO' debe declararse
+
+WHEN-BUTTON-PRESSED (TOOLBAR.CLIENTES)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'TOOLBAR.CLIENTES' debe declararse
+
+WHEN-BUTTON-PRESSED (TOOLBAR.CORREO)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'TOOLBAR.CORREO' debe declararse
+
+WHEN-BUTTON-PRESSED (TOOLBAR.AYUDAADM)
+  ERROR 201 en línea 8, columna 11
+    el identificador 'ASISTENCIA_ADM' debe declararse
+  ERROR 201 en línea 20, columna 7
+    el identificador 'TOOLBAR.AYUDAADM' debe declararse
+  ERROR 201 en línea 25, columna 7
+    el identificador 'UTILITARIOS.MENSAJE' debe declararse
+
+WHEN-BUTTON-PRESSED (TOOLBAR.ACERCADE)
+  ERROR 201 en línea 6, columna 1
+    el identificador 'TOOLBAR.ACERCADE' debe declararse
+
+WHEN-BUTTON-PRESSED (TOOLBAR.AYUDA)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'TOOLBAR.AYUDA' debe declararse
+
+WHEN-BUTTON-PRESSED (TOOLBAR.ERROR)
+
+WHEN-BUTTON-PRESSED (TOOLBAR.SALIR)
+
+WHEN-MOUSE-LEAVE (TOOLBAR)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'HINT.HIDEBUTTONHELP' debe declararse
+
+WHEN-MOUSE-ENTER (TOOLBAR)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'HINT.SHOWBUTTONHELP' debe declararse
+
+CREAVARGLOBALES (Cuerpo del Procedimiento)
+
+INIVARGLOBALESLOCALES* (Cuerpo del Procedimiento)
+  ERROR 201 en línea 14, columna 30
+    el identificador 'UTILITARIOS.DERECHOS_X_FORMA' debe declararse
+
+WHEN-NEW-ITEM-INSTANCE (CAMPO)
+  ERROR 201 en línea 12, columna 11
+    el identificador 'UTILITARIOS.AYUDA' debe declararse
+
+WHEN-MOUSE-DOUBLECLICK (CAMPO)
+
+WHEN-NEW-ITEM-INSTANCE (CAMPO_SIN_TOOLBAR)
+  ERROR 201 en línea 6, columna 11
+    el identificador 'UTILITARIOS.AYUDA' debe declararse
+
+WHEN-MOUSE-DOUBLECLICK (CAMPO_SIN_TOOLBAR)
+
+WHEN-NEW-FORM-INSTANCE (Pantalla)
+  ERROR 201 en línea 3, columna 1
+    el identificador 'INIFRM.INICIO' debe declararse
+  ERROR 201 en línea 15, columna 26
+    el identificador 'INIFRM.TIT_SISTEMA' debe declararse
+
+KEY-DELREC (Pantalla)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'ACCESO.PRE_DELETE' debe declararse
+
+KEY-CLRFRM (Pantalla)
+  ERROR 201 en línea 6, columna 1
+    el identificador 'INIFRM.INICIO' debe declararse
+  ERROR 201 en línea 18, columna 26
+    el identificador 'INIFRM.TIT_SISTEMA' debe declararse
+
+PRE-INSERT (Pantalla)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'ACCESO.PRE_INSERT' debe declararse
+
+PRE-UPDATE (Pantalla)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'ACCESO.PRE_UPDATE' debe declararse
+
+PRE-QUERY (Pantalla)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'ACCESO.PRE_QUERY' debe declararse
+
+ON-ERROR (Pantalla)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'ON_ERROR' debe declararse
+
+ON-MESSAGE (Pantalla)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'ON_MESSAGE' debe declararse
+
+WHEN-TIMER-EXPIRED (Pantalla)
+  ERROR 201 en línea 1, columna 1
+    el identificador 'HINT.SHOWBUTTONHELPHANDLER' debe declararse

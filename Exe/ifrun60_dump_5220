@@ -1,0 +1,32 @@
+[05/05/16 09:45:19 Hora estándar de Paraguay]::Client Status [ConnId=0, PID=5220]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  67DF69F7 01:000459F7
+Module: C:\orant\BIN\DEB60.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7601 Service Pack 1
+Command line: "C:\orant\BIN\ifrun60.EXE" Imenu
+FORM/BLOCK/FIELD: BSMENU:B_MENU.CAMBIO
+Last Trigger: KEY-EXIT - (In Progress)
+Msg: <NULL>
+Last Builtin: SYNCHRONIZE - (Successfully Completed)
+
+Registers:
+EAX:0012E888
+EBX:043A1C84
+ECX:00000020
+EDX:00000000
+ESI:67E538B0
+EDI:043A1C84
+CS:EIP:001B:67DF69F7
+SS:ESP:0023:0012E7C8  EBP:00000000
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+
+
+Call stack:
+Address   Frame
+

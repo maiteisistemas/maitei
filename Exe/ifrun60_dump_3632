@@ -1,0 +1,74 @@
+[08/12/16 11:09:37 Hora de verano romance]::Client Status [ConnId=0, PID=3632]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  664F35B0 01:000A25B0
+Module: C:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7600 
+Command line: "C:\orant\BIN\ifrun60.EXE" Imenu
+FORM/BLOCK/FIELD: CCMOVVAL:B_DETALLE.TIP_DOCUMENTO
+Last Trigger: WHEN-NEW-ITEM-INSTANCE - (In Progress)
+Msg: <NULL>
+Last Builtin: NEXT_FIELD - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:047573A0
+ECX:00000000
+EDX:04744A60
+ESI:0012D300
+EDI:021AFAB4
+CS:EIP:001B:664F35B0
+SS:ESP:0023:0012C5EC  EBP:0012C60C
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012c60c 664b8296 04744a60 00000001 0012d300 047573a0 0x664f35b0          
+0x0012d710 6646452a 04744a60 021afab4 0470b290 00000001 0x664b8296          
+0x0012d778 67e28edc 021afab4 04744a60 021e9a80 021a3a3c 0x6646452a          
+0x021aedf0 021a3a3c 67deac90 67deacd0 00467ab0 00000000 0x67e28edc          
+0x021e9a80 00000001 0000000a 021c1db8 67fbcf2f 0041189a 0x021a3a3c          
+------------------- End of Stack Trace -------------------
+
+
+[08/19/16 13:40:05 Hora de verano romance]::Client Status [ConnId=0, PID=3632]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  664F35B0 01:000A25B0
+Module: C:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7600 
+Command line: IFDBG60 -SsL09@
+FORM/BLOCK/FIELD: STREMISI:B_CABECERA.<NULL>
+Last Trigger: PRE-QUERY - (In Progress)
+Msg: <NULL>
+Last Builtin: NEXT_FIELD - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:02A28F38
+ECX:00000000
+EDX:029AD7B0
+ESI:0012DE88
+EDI:02986074
+CS:EIP:001B:664F35B0
+SS:ESP:0023:0012D174  EBP:0012D194
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012d194 664b8296 029ad7b0 00000001 0012de88 02a28f38 0x664f35b0          
+0x0012e298 6646452a 029ad7b0 02986074 02a0f740 00000001 0x664b8296          
+0x0012e300 0049febc 02986074 029ad7b0 029a56f8 02963a3c 0x6646452a          
+0x02985610 02963a3c 00461c70 00461cb0 0066bc40 00000000 0x0049febc          
+0x029a56f8 00000001 0000000a 029821d0 67fbcf2f 00615492 0x02963a3c          
+------------------- End of Stack Trace -------------------
+
+

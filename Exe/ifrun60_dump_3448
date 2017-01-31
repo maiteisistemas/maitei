@@ -1,0 +1,37 @@
+[08/19/16 14:04:58 Hora de verano romance]::Client Status [ConnId=0, PID=3448]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  664F35B0 01:000A25B0
+Module: C:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7600 
+Command line: "C:\orant\BIN\ifrun60.EXE" Imenu
+FORM/BLOCK/FIELD: CCMOVVAL:B_CABECERA.<NULL>
+Last Trigger: PRE-QUERY - (In Progress)
+Msg: <NULL>
+Last Builtin: EXECUTE_QUERY - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:01607088
+ECX:00000000
+EDX:0487DB50
+ESI:0012D6F0
+EDI:015CFAB4
+CS:EIP:001B:664F35B0
+SS:ESP:0023:0012C9DC  EBP:0012C9FC
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012c9fc 664b8296 0487db50 00000001 0012d6f0 01607088 0x664f35b0          
+0x0012db00 6646452a 0487db50 015cfab4 04802078 00000001 0x664b8296          
+0x0012db68 67e28edc 015cfab4 0487db50 01609c60 015c3a3c 0x6646452a          
+0x015cedf0 015c3a3c 67deac90 67deacd0 00467ab0 00000000 0x67e28edc          
+0x01609c60 00000001 0000000a 015e21f8 67fbcf2f 0041189a 0x015c3a3c          
+------------------- End of Stack Trace -------------------
+
+

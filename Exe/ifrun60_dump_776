@@ -1,0 +1,49 @@
+[10/30/15 16:59:34 Hora de verano de Paraguay]::Client Status [ConnId=0, PID=776]
+	>> ERROR: Abnormal termination, Error Code: C0000006 IN_PAGE_ERROR
+
+======================= STACK DUMP =======================
+
+Fault address:  772808F5 01:0000F8F5
+Module: C:\Windows\system32\MSVCRT.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7601 Service Pack 1
+Command line: "C:\orant\BIN\ifrun60.EXE" imenu
+FORM/BLOCK/FIELD: VTRFAEMI:B_PARAMETRO.EJECUTAR
+Last Trigger: WHEN-BUTTON-PRESSED - (Updating Error information)
+Msg: <NULL>
+Last Builtin: DO_KEY - (Successfully Completed)
+
+Registers:
+EAX:03AB0030
+EBX:0000004F
+ECX:00000013
+EDX:7EFEFEFF
+ESI:03AB0030
+EDI:002380C8
+CS:EIP:001B:772808F5
+SS:ESP:0023:0012E124  EBP:0012E140
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010213
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012e140 00462a1b 03ab0030 03addf72 03add8ee 0022efd4 0x772808f5          
+0x0012e784 004174f8 03add8ee 00000000 03b37568 02144210 0x00462a1b          
+0x0012ede8 00415f42 021d4808 00000000 03ae3abc 02144210 0x004174f8          
+0x0012f158 0043cd9f 02144210 00000001 021d4808 02144210 0x00415f42          
+0x0012f1a8 0043b6b5 03f53ff8 00000001 021d4808 02144210 0x0043cd9f          
+0x0012f240 0043b560 03ae2ba0 03ae2ba0 02144210 021d4808 0x0043b6b5          
+0x0012f264 0043f04e 03ae3abc 00000000 03ae2ba0 02144210 0x0043b560          
+0x0012f2a4 0043e7df 03ae2ba0 03f477a4 03f477a4 02144210 0x0043f04e          
+0x0012f2d4 0043e18d 021d4808 03f477a4 03f477a4 02144210 0x0043e7df          
+0x0012f2fc 0043d3ca 021d4808 03f477a4 00000000 02144210 0x0043e18d          
+0x0012f34c 0041a442 00000000 00000001 0012f384 00000000 0x0043d3ca          
+0x0012f3b4 00419e59 016d817c 0213a2b4 00000000 00000001 0x0041a442          
+0x0012f4d0 00412f0e 00000000 021485e8 00000005 02148368 0x00419e59          
+0x0012fd30 004119e9 00000014 00000000 00000002 01d109a0 0x00412f0e          
+0x0012fd54 004118be 018d09d0 00000000 00000000 00000002 0x004119e9          
+0x0012fd74 67948973 018d09d0 00000000 00000000 00000002 0x004118be          
+0x0012fdc4 6794a3b1 018d1db4 00403010 00000000 00000002 0x67948973          
+------------------- End of Stack Trace -------------------
+
+

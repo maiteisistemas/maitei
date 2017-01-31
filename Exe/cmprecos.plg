@@ -1,0 +1,104 @@
+Resumen de Conversión de PL/SQL V1 - Z:\Fuentes\compras\rep\cmprecos.rdf
+
+CF_1FORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 8
+    el identificador 'EMPRESAS' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 29
+
+F_PRECIO_UNITFORMATTRIGGER (Cuerpo de la Función)
+
+F_MONTO_TOTAL3FORMATTRIGGER (Cuerpo de la Función)
+
+CF_COLUMNA1FORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 5, columna 24
+    el identificador 'CM_AGRUPACIONES' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 9 columna 1
+
+CF_COLUMNA2FORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 5, columna 24
+    el identificador 'CM_AGRUPACIONES' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 9 columna 1
+
+CF_COLUMNA3FORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 5, columna 24
+    el identificador 'CM_AGRUPACIONES' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 9 columna 1
+
+CF_COLUMNA4FORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 5, columna 24
+    el identificador 'CM_AGRUPACIONES' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 9 columna 1
+
+CF_COLUMNA5FORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 5, columna 24
+    el identificador 'CM_AGRUPACIONES' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 9 columna 1
+
+CF_COLUMNA6FORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 5, columna 24
+    el identificador 'CM_AGRUPACIONES' debe declararse
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 36
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 9 columna 1
+
+CF_FLESEGFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 12
+    el identificador 'CM_GASTOS_ART' debe declararse
+
+F_MONTO_TOTAL1FORMATTRIGGER (Cuerpo de la Función)
+
+F_FLESEG1FORMATTRIGGER (Cuerpo de la Función)
+
+CF_CIFFORMULA (Cuerpo de la Función)
+
+CF_GASDESFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 12
+    el identificador 'CM_GASTOS_ART' debe declararse
+
+CF_GASBANFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 12
+    el identificador 'CM_GASTOS_ART' debe declararse
+
+CF_ESTDESFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 12
+    el identificador 'CM_GASTOS_ART' debe declararse
+
+CF_GASSEGFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 12
+    el identificador 'CM_GASTOS_ART' debe declararse
+
+CF_OTRGASFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 12
+    el identificador 'CM_GASTOS_ART' debe declararse
+
+CF_CIFXCAJAFORMULA (Cuerpo de la Función)
+
+F_CIF1FORMATTRIGGER (Cuerpo de la Función)
+
+F_CIFXCAJA1FORMATTRIGGER (Cuerpo de la Función)
+
+F_GASDES1FORMATTRIGGER (Cuerpo de la Función)
+
+F_GASBAN1FORMATTRIGGER (Cuerpo de la Función)
+
+F_ESTDES1FORMATTRIGGER (Cuerpo de la Función)
+
+F_GASSEG1FORMATTRIGGER (Cuerpo de la Función)
+
+CF_TOTGASFORMULA (Cuerpo de la Función)
+
+CF_COSADQFORMULA (Cuerpo de la Función)
+
+CF_COSXCAJAFORMULA (Cuerpo de la Función)
+
+F_OTRGAS1FORMATTRIGGER (Cuerpo de la Función)
+
+F_TOTGAS1FORMATTRIGGER (Cuerpo de la Función)
+
+F_COSADQ1FORMATTRIGGER (Cuerpo de la Función)
+
+F_DECIMALES1FORMATTRIGGER (Cuerpo de la Función)

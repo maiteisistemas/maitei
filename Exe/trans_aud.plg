@@ -1,0 +1,7 @@
+Resumen de Conversión de PL/SQL V1 - Pantalla: TRANS_AUD
+
+WHEN-BUTTON-PRESSED (B.CREA_AUD)
+
+WHEN-CREATE-RECORD (B)
+
+PROC_CREA_AUD (Cuerpo del Procedimiento)

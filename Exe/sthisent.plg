@@ -1,0 +1,91 @@
+Resumen de Conversión de PL/SQL V1 - \\SERVIDOR\Inventiva\Fuentes\stock\Rep\sthisent.rdf
+
+CF_1FORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 9
+    el identificador 'EMPRESAS' debe declararse
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 29
+
+DESC_SUC_INIFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'SUCURSALES' debe declararse
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 37
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 12 columna 1
+
+DESC_SUC_FINFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'SUCURSALES' debe declararse
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 37
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 12 columna 1
+
+ARTICULO_INIFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'ST_ARTICULOS' debe declararse
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 37
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 12 columna 1
+
+ARTICULO_FINFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'ST_ARTICULOS' debe declararse
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 37
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 12 columna 1
+
+CF_COSTOFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 7, columna 12
+    el identificador 'ST_COSTOS_ART' debe declararse
+  ERROR 201 en línea 32, columna 14
+    el identificador 'ST_COSTOS_ART' debe declararse
+
+CAMBIO_DOLARFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 10
+    el identificador 'TIPOS_CAMBIO' debe declararse
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 13 columna 1
+
+COSTO_DOLARFORMULA (Cuerpo de la Función)
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 10 columna 1
+
+CF_DESC_RUBROFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 12
+    el identificador 'ST_RUBRO' debe declararse
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 38
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 12 columna 1
+
+CF_DESC_FAMILIAFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 12
+    el identificador 'ST_FAMILIA' debe declararse
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 40
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 11 columna 1
+
+CF_DESC_LINEAFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 12
+    el identificador 'ST_LINEA' debe declararse
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 38
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 11 columna 1
+
+CF_DESC_MARCAFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 6, columna 12
+    el identificador 'ST_MARCAS' debe declararse
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 38
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 11 columna 1
+
+CF_DESC_ARTICULOFORMULA (Cuerpo de la Función)
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 41
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 16 columna 1
+
+CF_DESC_MOTIVOFORMULA (Cuerpo de la Función)
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 39
+
+BEFOREREPORT (Cuerpo de la Función)
+
+CF_PARA_EXCELFORMULA (Cuerpo de la Función)
+  Sin Convertir:  CHAR a VARCHAR2 en línea 1 columna 38
+
+G_DETALLEGROUPFILTER (Cuerpo de la Función)
+
+CF_COSTO_PROM_GSFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 7, columna 12
+    el identificador 'ST_ARTICULOS' debe declararse
+
+CF_COSTO_PROM_USDFORMULA* (Cuerpo de la Función)
+  ERROR 201 en línea 7, columna 12
+    el identificador 'ST_ARTICULOS' debe declararse
+  Sin Convertir:  Inserte una sentencia RETURN NULL; en línea 22 columna 1

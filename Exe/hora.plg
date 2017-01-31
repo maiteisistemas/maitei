@@ -1,0 +1,11 @@
+Resumen de Conversión de PL/SQL V1 - Pantalla: HORA
+
+WHEN-CREATE-RECORD (HORA)
+  ERROR 201 en línea 7, columna 10
+    el identificador 'DUAL' debe declararse
+
+WHEN-TIMER-EXPIRED (Pantalla)
+  ERROR 201 en línea 14, columna 10
+    el identificador 'DUAL' debe declararse
+
+PRE-FORM (Pantalla)

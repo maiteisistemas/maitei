@@ -1,0 +1,11 @@
+Resumen de Conversión de PL/SQL V1 - Z:\Fuentes\cta_pag\Rep\cpextrcc.rdf
+
+CF_EMPRESAFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 35
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 9 columna 1
+
+CF_DOCUMENTOFORMULA (Cuerpo de la Función)
+  Convertido:  CHAR a VARCHAR2 en línea 1 columna 37
+  Convertido:  Inserte una sentencia RETURN NULL; en línea 11 columna 1
+
+CF_DIFERENFORMULA (Cuerpo de la Función)
